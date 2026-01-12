@@ -1,0 +1,99 @@
+'use client';
+
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import { ExternalLink, Menu, X } from 'lucide-react';
+
+const navigation = [
+  { name: 'Home', href: '/' },
+  { name: 'Videos', href: '/videos' },
+  { name: 'Recipes', href: '/recipes' },
+  { name: 'Submit Recipe', href: '/submit-recipe' },
+  { name: 'Testimonials', href: '/testimonials' },
+];
+
+export function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  return (
+    <header className="sticky top-0 z-50 glass border-b border-[var(--border)]/30 transition-all duration-300">
+      <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="flex h-12 items-center justify-between sm:h-14">
+          {/* Logo */}
+          <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
+            <Image
+              src="/logo.png"
+              alt="Marpé Nutrition"
+              width={140}
+              height={44}
+              className="h-7 w-auto sm:h-8"
+              priority
+            />
+          </Link>
+
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex md:items-center md:gap-10">
+            {navigation.map((item) => (
+              <Link
+                key={item.name}
+                href={item.href}
+                className="text-[12px] font-normal tracking-wide text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors uppercase"
+              >
+                {item.name}
+              </Link>
+            ))}
+            <a
+              href="https://marpenutrition.square.site/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded-full bg-[var(--brand-accent)] px-4 py-1.5 text-[12px] font-medium text-white hover:opacity-90 transition-all active:scale-[0.98]"
+            >
+              Book Now
+            </a>
+          </div>
+
+          {/* Mobile menu button */}
+          <button
+            type="button"
+            className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-[var(--foreground)] hover:bg-[var(--muted)]"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            <span className="sr-only">Open main menu</span>
+            {mobileMenuOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
+          </button>
+        </div>
+
+        {/* Mobile Navigation */}
+        {mobileMenuOpen && (
+          <div className="md:hidden py-6 border-t border-[var(--border)]/30 animate-in fade-in slide-in-from-top-4 duration-300">
+            <div className="flex flex-col gap-4">
+              {navigation.map((item) => (
+                <Link
+                  key={item.name}
+                  href={item.href}
+                  className="block px-3 py-2 text-sm font-medium text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
+                  {item.name}
+                </Link>
+              ))}
+              <a
+                href="https://marpenutrition.square.site/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand-accent)] px-4 py-3 text-sm font-medium text-white shadow-sm active:scale-[0.98] transition-transform"
+              >
+                Book Now
+              </a>
+            </div>
+          </div>
+        )}
+      </nav>
+    </header>
+  );
+}
