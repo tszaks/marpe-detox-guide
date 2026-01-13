@@ -26,17 +26,15 @@ export function Announcements() {
           {/* Recipe Contest Announcement */}
           <Callout variant="success" title="Detox Recipe Contest!">
             <p>
-              This year, we’re running the recipe contest! If you submit a recipe, you are entered to win a $100 Marpé gift card.
+              This year, we're running the recipe contest! If you submit a recipe, you are entered to win a $100 Marpé gift card.
             </p>
-            <a
-              href="https://tally.so/r/7RKXd2"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/submit-recipe"
               className="mt-3 inline-flex items-center text-[13px] font-bold text-[var(--brand-accent)] hover:opacity-80 transition-opacity"
             >
               Submit a Recipe
               <ArrowRight className="ml-1.5 h-3.5 w-3.5" />
-            </a>
+            </Link>
           </Callout>
         </div>
       </div>
