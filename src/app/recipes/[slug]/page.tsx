@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { ChefHat } from 'lucide-react';
-import { getApprovedRecipes, getRecipeBySlug } from '@/lib/notion';
+import { getApprovedRecipes, getRecipeBySlug } from '@/lib/recipes';
 import { RecipeContent } from '@/components/recipes';
 import { Button } from '@/components/ui';
 

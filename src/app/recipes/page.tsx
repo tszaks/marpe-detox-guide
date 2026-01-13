@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import type { Metadata } from 'next';
-import { getApprovedRecipes, getRecipeCategories } from '@/lib/notion';
+import { getApprovedRecipes, getRecipeCategories } from '@/lib/recipes';
 import { RecipeBrowser } from './RecipeBrowser';
 
 export const metadata: Metadata = {

@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createRecipeSubmission } from '@/lib/notion';
+import { createRecipeSubmission } from '@/lib/recipes';
 import type { SubmitRecipeResponse } from '@/types';
 
 export async function POST(request: NextRequest): Promise<NextResponse<SubmitRecipeResponse>> {
@@ -39,7 +39,7 @@ export async function POST(request: NextRequest): Promise<NextResponse<SubmitRec
       );
     }
 
-    // Create the recipe in Notion
+    // Create the recipe in Supabase
     const recipeId = await createRecipeSubmission({
       submitterName: submitterName.trim(),
       recipeName: recipeName.trim(),
@@ -53,10 +53,6 @@ export async function POST(request: NextRequest): Promise<NextResponse<SubmitRec
     if (image) {
       console.log(`Image attached: ${image.name} (${image.size} bytes)`);
     }
-
-    // Note: Email notification would go here via Gmail MCP
-    // The MCP is handled externally, so we just log for now
-    // In production, you could trigger a webhook or use a different notification method
 
     return NextResponse.json({
       success: true,
