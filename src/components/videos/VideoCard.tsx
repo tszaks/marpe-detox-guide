@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { Play, Clock } from 'lucide-react';
 import type { Video } from '@/types';
 
@@ -15,8 +16,6 @@ export function VideoCard({ video }: VideoCardProps) {
       ? `https://www.youtube.com/watch?list=${video.youtubeId}${video.index ? `&index=${video.index}` : ''}`
       : '#';
 
-  const isFacebook = !!video.facebookUrl;
-  
   return (
     <a
       href={videoUrl}
@@ -24,11 +23,20 @@ export function VideoCard({ video }: VideoCardProps) {
       rel="noopener noreferrer"
       className="group flex flex-col overflow-hidden rounded-2xl bg-white border border-[var(--border)]/40 shadow-sm transition-all duration-300 hover:shadow-apple-hover hover:scale-[1.02]"
     >
-      {/* Thumbnail placeholder */}
+      {/* Thumbnail */}
       <div className="relative aspect-video bg-[var(--accent-cool)] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-        <div className="h-12 w-12 rounded-full bg-white/90 flex items-center justify-center text-[var(--brand-accent)] shadow-sm group-hover:scale-110 transition-transform duration-300 relative z-10">
-          <Play className="h-6 w-6 fill-current" />
+        {video.thumbnailUrl && (
+          <Image
+            src={video.thumbnailUrl}
+            alt={video.title}
+            fill
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          />
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
+        <div className="h-14 w-14 rounded-full bg-white/95 flex items-center justify-center text-[var(--brand-accent)] shadow-lg group-hover:scale-110 transition-transform duration-300 relative z-10">
+          <Play className="h-7 w-7 fill-current ml-1" />
         </div>
         
         {/* Duration badge */}

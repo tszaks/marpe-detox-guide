@@ -1,6 +1,13 @@
 import { Video } from '@/types';
 
-export const VIDEOS: Video[] = [
+// Helper to extract reel ID from Facebook URL and generate thumbnail path
+function getThumbnailUrl(facebookUrl: string): string {
+  const reelId = facebookUrl.match(/\/reel\/(\d+)/)?.[1];
+  return reelId ? `/thumbnails/${reelId}.jpg` : '';
+}
+
+// Raw video data without thumbnails (added automatically below)
+const RAW_VIDEOS: Omit<Video, 'thumbnailUrl'>[] = [
   // Pre-Detox & Promo Videos
   {
     id: 'fb-1',
@@ -336,6 +343,12 @@ export const VIDEOS: Video[] = [
     index: 35,
   },
 ];
+
+// Auto-generate thumbnail URLs from Facebook URLs
+export const VIDEOS: Video[] = RAW_VIDEOS.map(video => ({
+  ...video,
+  thumbnailUrl: video.facebookUrl ? getThumbnailUrl(video.facebookUrl) : undefined,
+}));
 
 export function getVideos(): Video[] {
   return VIDEOS;
