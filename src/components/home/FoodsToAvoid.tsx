@@ -57,11 +57,9 @@ export function FoodsToAvoid() {
               <X className="h-6 w-6 text-[var(--foreground)]" />
             </div>
             <div>
-              <h4 className="text-[17px] font-bold text-[var(--foreground)] tracking-tight">Addressing the underlying cause</h4>
+              <h4 className="text-[17px] font-bold text-[var(--foreground)] tracking-tight">Why it matters</h4>
               <p className="text-[15px] text-[var(--muted-foreground)] mt-2 leading-relaxed">
-                By eliminating these stressors, we remove the interference to your nervous system. This allows 
-                for faster correction of nutritional deficiencies and supports the body&apos;s natural ability 
-                to restore complete balance.
+                When you remove these from your diet, your body can focus on what matters - healing and getting stronger.
               </p>
             </div>
           </div>

@@ -57,8 +57,7 @@ export function ApprovedFoods() {
             Sustain. <span className="text-[var(--brand-accent)]">Nourish.</span> Heal.
           </h2>
           <p className="mt-4 text-lg text-[var(--muted-foreground)] max-w-2xl mx-auto font-normal">
-            Quality whole foods and herbs provide the nutrients your body needs to sustain a healthy life. 
-            Focus on these approved sources to support your custom nutritional program.
+            These whole foods give your body the nutrients it needs to heal. Stick with these during your detox and feel the difference.
           </p>
         </div>
 

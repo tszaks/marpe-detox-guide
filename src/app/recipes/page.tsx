@@ -62,8 +62,7 @@ export default function RecipesPage() {
             <span className="green-gradient">Nourishment.</span>
           </h1>
           <p className="mt-8 text-xl text-[var(--muted-foreground)] max-w-2xl mx-auto font-normal leading-relaxed">
-            A curated selection of protocols designed to support cellular integrity and provide the 
-            nutrients essential for your body&apos;s recovery.
+            Delicious, detox-friendly recipes to keep you satisfied and on track.
           </p>
         </div>
 

@@ -10,7 +10,7 @@ const tips: { icon: LucideIcon; title: string; description: string; link?: strin
   {
     icon: FlaskConical,
     title: 'Avoid Unhealthy Cleaning Chemicals',
-    description: 'Switch to natural cleaning products to reduce toxic load.',
+    description: 'Switch to natural cleaning products to give your body a break from chemicals.',
   },
   {
     icon: XCircle,

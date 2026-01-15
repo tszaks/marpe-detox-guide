@@ -48,10 +48,10 @@ export function SupportSuggestions() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-[var(--foreground)]">
-            Additional Ways to Support the Detox Process
+            Ways to Support Your Detox
           </h2>
           <p className="mt-2 text-[var(--muted-foreground)]">
-            Holistic approaches to enhance your results
+            Simple habits that help your body heal faster
           </p>
         </div>
 
