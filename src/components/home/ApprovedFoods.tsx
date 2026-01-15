@@ -107,7 +107,16 @@ export function ApprovedFoods() {
                             <div className="h-6 w-6 rounded-full bg-[var(--brand-accent)]/10 flex items-center justify-center text-[var(--brand-accent)] group-hover:bg-[var(--brand-accent)] group-hover:text-white transition-colors duration-300 flex-shrink-0">
                               <Check className="h-3 w-3" />
                             </div>
-                            <span className="text-[var(--foreground)] font-medium tracking-tight">{item}</span>
+                            <span className="text-[var(--foreground)] tracking-tight">
+                              {item.includes(':') ? (
+                                <>
+                                  <span className="font-bold">{item.split(':')[0]}:</span>
+                                  <span className="font-normal">{item.split(':').slice(1).join(':')}</span>
+                                </>
+                              ) : (
+                                <span className="font-medium">{item}</span>
+                              )}
+                            </span>
                           </div>
                         ))}
                       </div>
