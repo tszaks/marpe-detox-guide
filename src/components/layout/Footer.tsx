@@ -13,7 +13,7 @@ const quickLinks = [
 
 const externalLinks = [
   { name: 'Book a Session', href: 'https://square.site/book/4ZA2H8192GMMS/marpe-nutrition-phoenixville-pa' },
-  { name: 'Main Website', href: 'https://marpenutrition.com' },
+  { name: 'MarpeNutrition.com', href: 'https://marpenutrition.com' },
 ];
 
 const socialLinks = [
