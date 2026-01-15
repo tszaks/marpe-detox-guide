@@ -27,8 +27,8 @@ export function FoodsToAvoid() {
             Take a Break <span className="text-[var(--muted-foreground)]">From These</span>
           </h2>
           <p className="mt-4 text-lg text-[var(--muted-foreground)] max-w-2xl mx-auto font-normal">
-            Healing starts with what you don't eat. Avoid these during detox
-            and notice how much better you feel.
+            Detox is about eating clean and resetting your body. Skip these so
+            your system can focus on healing.
           </p>
         </div>
 
