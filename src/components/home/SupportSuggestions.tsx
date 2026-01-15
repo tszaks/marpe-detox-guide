@@ -55,7 +55,7 @@ export function SupportSuggestions() {
           </p>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2 max-w-4xl mx-auto">
+        <div className="grid gap-4 md:grid-cols-2 max-w-4xl mx-auto items-start">
           {supportCategories.map((category) => (
             <CollapsibleSection
               key={category.title}
