@@ -44,7 +44,7 @@ export function Header() {
               </Link>
             ))}
             <a
-              href="https://marpenutrition.square.site/"
+              href="https://square.site/book/4ZA2H8192GMMS/marpe-nutrition-phoenixville-pa"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-[var(--brand-accent)] px-4 py-1.5 text-[12px] font-medium text-white hover:opacity-90 transition-all active:scale-[0.98]"
@@ -83,7 +83,7 @@ export function Header() {
                 </Link>
               ))}
               <a
-                href="https://marpenutrition.square.site/"
+                href="https://square.site/book/4ZA2H8192GMMS/marpe-nutrition-phoenixville-pa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand-accent)] px-4 py-3 text-sm font-medium text-white shadow-sm active:scale-[0.98] transition-transform"

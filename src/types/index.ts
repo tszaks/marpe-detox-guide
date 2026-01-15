@@ -82,6 +82,8 @@ export interface Video {
   category: VideoCategory;
   day?: number;
   index?: number;
+  isRecent?: boolean;  // Computed - marks newest videos
+  isPinned?: boolean;  // Computed - marks pinned featured video
 }
 
 export type VideoCategory = 'Daily Update' | 'Recipe' | 'Tip' | 'Workshop' | 'Prep';

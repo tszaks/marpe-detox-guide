@@ -49,6 +49,20 @@ export function VideoCard({ video }: VideoCardProps) {
         <div className="absolute top-3 left-3 rounded-full bg-white/90 px-3 py-1 text-[10px] font-bold text-[var(--brand-accent)] uppercase tracking-wider shadow-sm">
           {video.category}
         </div>
+
+        {/* Recent badge */}
+        {video.isRecent && (
+          <div className="absolute top-3 right-3 rounded-full bg-emerald-500 px-2.5 py-1 text-[10px] font-bold text-white uppercase tracking-wider shadow-sm animate-pulse">
+            New
+          </div>
+        )}
+
+        {/* Featured/Pinned badge */}
+        {video.isPinned && (
+          <div className="absolute top-3 right-3 rounded-full bg-amber-500 px-2.5 py-1 text-[10px] font-bold text-white uppercase tracking-wider shadow-sm">
+            Featured
+          </div>
+        )}
       </div>
 
       <div className="flex flex-1 flex-col p-5">

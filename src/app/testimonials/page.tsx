@@ -178,7 +178,7 @@ export default function TestimonialsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://marpenutrition.square.site/"
+              href="https://square.site/book/4ZA2H8192GMMS/marpe-nutrition-phoenixville-pa"
               target="_blank"
               rel="noopener noreferrer"
             >

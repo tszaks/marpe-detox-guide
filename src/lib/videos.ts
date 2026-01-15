@@ -342,17 +342,127 @@ const RAW_VIDEOS: Omit<Video, 'thumbnailUrl'>[] = [
     category: 'Tip',
     index: 35,
   },
+
+  // Day 12
+  {
+    id: 'fb-36',
+    title: 'Day 12 of Detox: Making Nourishing Bone Broth',
+    duration: '2:15',
+    facebookUrl: 'https://www.facebook.com/reel/1195386246129811/',
+    category: 'Recipe',
+    day: 12,
+    index: 36,
+  },
+  {
+    id: 'fb-37',
+    title: 'Day 12 of Detox: Stir Fry Green Beans',
+    duration: '1:20',
+    facebookUrl: 'https://www.facebook.com/reel/1220040196204189/',
+    category: 'Recipe',
+    day: 12,
+    index: 37,
+  },
+
+  // Day 13
+  {
+    id: 'fb-38',
+    title: 'Day 13 of Detox: Healthy Taco Salad Recipe',
+    duration: '1:35',
+    facebookUrl: 'https://www.facebook.com/reel/743067518848717/',
+    category: 'Recipe',
+    day: 13,
+    index: 38,
+  },
+  {
+    id: 'fb-39',
+    title: 'Day 13 of Detox: Easy Stir Fry Anyone Can Make',
+    duration: '1:45',
+    facebookUrl: 'https://www.facebook.com/reel/1646593066719698/',
+    category: 'Recipe',
+    day: 13,
+    index: 39,
+  },
+
+  // Day 14
+  {
+    id: 'fb-40',
+    title: 'Day 14 of Detox: Easy 3-Ingredient Chia Pudding',
+    duration: '1:30',
+    facebookUrl: 'https://www.facebook.com/reel/4397647950554426/',
+    category: 'Recipe',
+    day: 14,
+    index: 40,
+  },
+  {
+    id: 'fb-41',
+    title: 'Day 14 of Detox: Simple Vegan Greek Salad',
+    duration: '0:55',
+    facebookUrl: 'https://www.facebook.com/reel/910144795018060/',
+    category: 'Recipe',
+    day: 14,
+    index: 41,
+  },
+
+  // Bonus Testimonials & Tips
+  {
+    id: 'fb-42',
+    title: 'From Painful Knees to Jumping Jacks',
+    duration: '0:35',
+    facebookUrl: 'https://www.facebook.com/reel/1400645988456516/',
+    category: 'Tip',
+    index: 42,
+  },
+  {
+    id: 'fb-43',
+    title: 'Vegan Rage: When Detox Gets Intense',
+    duration: '1:00',
+    facebookUrl: 'https://www.facebook.com/reel/34192764246977439/',
+    category: 'Tip',
+    index: 43,
+  },
 ];
 
 // Auto-generate thumbnail URLs from Facebook URLs
-export const VIDEOS: Video[] = RAW_VIDEOS.map(video => ({
+const VIDEOS_WITH_THUMBNAILS: Video[] = RAW_VIDEOS.map(video => ({
   ...video,
   thumbnailUrl: video.facebookUrl ? getThumbnailUrl(video.facebookUrl) : undefined,
 }));
 
+// Pinned video ID - this video always appears first
+const PINNED_VIDEO_ID = 'fb-1';
+
+// Number of videos to mark as "recent" (after the pinned video)
+const RECENT_COUNT = 2;
+
 export function getVideos(): Video[] {
-  return VIDEOS;
+  // Find the pinned video
+  const pinnedVideo = VIDEOS_WITH_THUMBNAILS.find(v => v.id === PINNED_VIDEO_ID);
+
+  // Get all other videos and sort by index descending (newest first)
+  const otherVideos = VIDEOS_WITH_THUMBNAILS
+    .filter(v => v.id !== PINNED_VIDEO_ID)
+    .sort((a, b) => (b.index || 0) - (a.index || 0));
+
+  // Mark the pinned video
+  const result: Video[] = [];
+
+  if (pinnedVideo) {
+    result.push({ ...pinnedVideo, isPinned: true });
+  }
+
+  // Add other videos, marking the first RECENT_COUNT as recent
+  otherVideos.forEach((video, idx) => {
+    result.push({
+      ...video,
+      isRecent: idx < RECENT_COUNT,
+    });
+  });
+
+  return result;
 }
+
+// Export raw sorted videos for backward compatibility
+export const VIDEOS = getVideos();
 
 export function getVideoCategories(): string[] {
   return ['All', 'Daily Update', 'Recipe', 'Tip', 'Workshop', 'Prep'];
