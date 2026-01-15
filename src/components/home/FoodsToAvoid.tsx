@@ -24,11 +24,11 @@ export function FoodsToAvoid() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl">
-            Exclusion: <span className="text-[var(--muted-foreground)]">Eliminating Triggers</span>
+            Take a Break <span className="text-[var(--muted-foreground)]">From These</span>
           </h2>
           <p className="mt-4 text-lg text-[var(--muted-foreground)] max-w-2xl mx-auto font-normal">
-            Addressing chronic health problems requires identifying and removing external stressors 
-            that contribute to biochemical imbalances.
+            Sometimes healing starts with what you don't eat. Skip these common triggers
+            during your detox and notice how much better you feel.
           </p>
         </div>
 
