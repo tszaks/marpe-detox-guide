@@ -1,4 +1,4 @@
-import { Calendar, Globe, Users, MessageSquare, Leaf, Pill, Star, HelpCircle, Video, Phone } from 'lucide-react';
+import { Calendar, Globe, Users, MessageSquare, Leaf, UtensilsCrossed, Star, HelpCircle, Video, Phone } from 'lucide-react';
 import type { LucideIcon } from 'lucide-react';
 
 const links: { label: string; url: string; icon: LucideIcon; isInternal?: boolean }[] = [
@@ -18,15 +18,21 @@ const links: { label: string; url: string; icon: LucideIcon; isInternal?: boolea
     icon: Globe,
   },
   {
-    label: 'Pinterest Recipes',
-    url: 'https://www.pinterest.com/MarpeNutrition/detox-recipes/',
-    icon: Pill, // Using Pill as placeholder for "Pin" or Recipe
+    label: 'Recipes',
+    url: '/recipes',
+    icon: UtensilsCrossed,
+    isInternal: true,
   },
   {
     label: 'Video Library',
     url: '/videos',
     icon: Video,
     isInternal: true,
+  },
+  {
+    label: 'Pinterest',
+    url: 'https://www.pinterest.com/MarpeNutrition/detox-recipes/',
+    icon: Globe,
   },
   {
     label: 'Contact Us',
