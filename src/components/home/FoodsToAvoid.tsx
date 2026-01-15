@@ -27,8 +27,8 @@ export function FoodsToAvoid() {
             Take a Break <span className="text-[var(--muted-foreground)]">From These</span>
           </h2>
           <p className="mt-4 text-lg text-[var(--muted-foreground)] max-w-2xl mx-auto font-normal">
-            Sometimes healing starts with what you don't eat. Give these a rest
-            during your detox and notice how much better you feel.
+            Sometimes healing starts with what you don't eat. Avoid these during detox
+            and notice how much better you feel.
           </p>
         </div>
 
