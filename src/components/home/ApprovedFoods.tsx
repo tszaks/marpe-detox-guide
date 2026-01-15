@@ -62,21 +62,23 @@ export function ApprovedFoods() {
           </p>
         </div>
 
-        {/* Category tabs - Apple style segmented control */}
-        <div className="flex flex-wrap justify-center p-1.5 bg-[var(--muted)] rounded-2xl max-w-4xl mx-auto mb-12 border border-[var(--border)]/30 shadow-inner">
-          {approvedFoodsCategories.map((category) => (
-            <button
-              key={category.name}
-              onClick={() => setActiveCategory(category.name)}
-              className={`flex-1 min-w-[120px] px-4 py-2.5 rounded-xl text-[13px] font-medium transition-all duration-200 ${
-                activeCategory === category.name
-                  ? 'bg-white text-[var(--foreground)] shadow-apple'
-                  : 'text-[var(--muted-foreground)] hover:text-[var(--foreground)]'
-              }`}
-            >
-              {category.name}
-            </button>
-          ))}
+        {/* Category tabs - Apple style segmented control with horizontal scroll */}
+        <div className="overflow-x-auto pb-2 -mb-2 scrollbar-hide">
+          <div className="flex p-1.5 bg-[var(--muted)] rounded-2xl mx-auto mb-12 border border-[var(--border)]/30 shadow-inner min-w-max w-fit">
+            {approvedFoodsCategories.map((category) => (
+              <button
+                key={category.name}
+                onClick={() => setActiveCategory(category.name)}
+                className={`px-5 py-2.5 rounded-xl text-[13px] font-medium transition-all duration-200 whitespace-nowrap ${
+                  activeCategory === category.name
+                    ? 'bg-white text-[var(--foreground)] shadow-apple'
+                    : 'text-[var(--muted-foreground)] hover:text-[var(--foreground)]'
+                }`}
+              >
+                {category.name}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Active category content */}
