@@ -112,6 +112,11 @@ const fullTestimonials = [
     quote:
       'For years, I struggled with GI issues, anxiety, and post-menopausal imbalance. Under the guidance of a clinical nutritionist and my DO, I tried bio-similar HRT, acid-reducing medications, and various natural therapies. While some of these approaches reduced my symptoms, they didn\'t address the root cause of my health issues, leaving me feeling uncertain about my healing journey. That all changed when a couple of my closest friends introduced me to Luisa. From the moment I began working with her, everything started to shift. After completing the 28-day detox under Luisa\'s care, I experienced remarkable improvements. My acid reflux eased, the night sweats disappeared, my sleep improved, and my cravings for sweets nearly vanished. On top of that, I started losing weight! I feel so blessed to have such incredible friends who introduced me to Luisa, and even more fortunate to now call her a friend too. She has truly been a transformative part of my journey to better health.',
   },
+  {
+    initials: 'KD',
+    quote:
+      'My pants fit again, my skin feels soft, and my body no longer aches. After years of feeling worn down and in pain, I finally feel like myself again. This truly feels like a miracle.',
+  },
 ];
 
 export default function TestimonialsPage() {

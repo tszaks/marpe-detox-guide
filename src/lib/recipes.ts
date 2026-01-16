@@ -202,26 +202,38 @@ export async function createRecipeSubmission(
     .map(line => line.replace(/^\d+\.\s*/, '').replace(/^[-*•]\s*/, '').trim())
     .filter(Boolean);
 
-  const { data, error } = await supabase
+  // Generate a unique slug by appending timestamp to avoid conflicts
+  // (We can't check for existing pending recipes due to RLS, so always make unique)
+  const uniqueSlug = `${slug}-${Date.now()}`;
+
+  // Note: We don't use .select('id') because RLS only allows SELECT on approved recipes,
+  // and newly inserted recipes are pending. The insert will succeed but select would fail.
+  const { error } = await supabase
     .from('recipes')
     .insert({
       name: submission.recipeName,
-      slug,
+      slug: uniqueSlug,
       ingredients,
       instructions,
       recipe_types: ['Client Submission'],
       submitter_name: submission.submitterName,
       status: 'pending',
-    })
-    .select('id')
-    .single();
+    });
 
   if (error) {
     console.error('Error creating recipe:', error);
-    throw new Error('Failed to submit recipe');
+    // Provide more specific error messages
+    if (error.code === '23505') {
+      throw new Error('A recipe with this name already exists. Please try a different name.');
+    }
+    if (error.code === '42501') {
+      throw new Error('Permission denied. Please try again later.');
+    }
+    throw new Error(`Failed to submit recipe: ${error.message}`);
   }
 
-  return data.id;
+  // Return the slug as identifier since we can't retrieve the UUID due to RLS
+  return uniqueSlug;
 }
 
 /**

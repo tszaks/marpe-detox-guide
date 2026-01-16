@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Check } from 'lucide-react';
+import { Check, AlertTriangle } from 'lucide-react';
 
 const approvedFoodsCategories = [
   {
@@ -17,6 +17,7 @@ const approvedFoodsCategories = [
   },
   {
     name: 'Proteins',
+    note: 'Days 1-10: Plant-based proteins only. Meat and seafood start on Day 11.',
     items: [
       'Meat (Starting Day 11): Steak, Beef, Chicken, Turkey',
       'Seafood (Starting Day 11)',
@@ -61,6 +62,16 @@ export function ApprovedFoods() {
           </p>
         </div>
 
+        {/* Protein timing warning */}
+        <div className="mb-8 mx-auto max-w-2xl">
+          <div className="bg-amber-50 border border-amber-200 rounded-2xl p-4 flex items-center gap-3">
+            <AlertTriangle className="h-5 w-5 text-amber-600 flex-shrink-0" />
+            <p className="text-amber-800 text-sm font-medium">
+              <strong>Important:</strong> No animal protein (meat or seafood) until Day 11. Stick to plant-based proteins like beans and lentils for Days 1-10.
+            </p>
+          </div>
+        </div>
+
         {/* Category tabs - Apple style segmented control with horizontal scroll */}
         <div className="overflow-x-auto pb-2 -mb-2 scrollbar-hide">
           <div className="flex p-1.5 bg-[var(--muted)] rounded-2xl mx-auto mb-12 border border-[var(--border)]/30 shadow-inner min-w-max w-fit">
@@ -96,7 +107,15 @@ export function ApprovedFoods() {
                         <span className="h-2 w-2 rounded-full bg-[var(--brand-accent)]" />
                         {category.name}
                       </h3>
-                      
+
+                      {/* Category-specific note (e.g., protein timing) */}
+                      {'note' in category && category.note && (
+                        <div className="mb-6 p-3 bg-amber-50 border border-amber-200 rounded-xl flex items-center gap-2">
+                          <AlertTriangle className="h-4 w-4 text-amber-600 flex-shrink-0" />
+                          <p className="text-amber-800 text-sm font-medium">{category.note}</p>
+                        </div>
+                      )}
+
                       <div className="grid gap-x-12 gap-y-4 sm:grid-cols-2">
                         {category.items.map((item) => (
                           <div
