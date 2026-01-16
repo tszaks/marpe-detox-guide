@@ -36,8 +36,8 @@ export function VideoBrowser({ videos, categories }: VideoBrowserProps) {
     setSelectedYear(year);
   }, []);
 
-  const handleToggleArchived = useCallback(() => {
-    setShowArchived(prev => !prev);
+  const handleSetShowArchived = useCallback((show: boolean) => {
+    setShowArchived(show);
   }, []);
 
   const filteredVideos = useMemo(() => {
@@ -87,7 +87,7 @@ export function VideoBrowser({ videos, categories }: VideoBrowserProps) {
             selectedYear={selectedYear}
             onSelectYear={handleYearSelect}
             showArchived={showArchived}
-            onToggleArchived={handleToggleArchived}
+            onSetShowArchived={handleSetShowArchived}
             years={years}
           />
 
