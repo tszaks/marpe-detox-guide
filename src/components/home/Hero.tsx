@@ -32,7 +32,7 @@ export function Hero() {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <a href="#foods-to-avoid" className="text-sm font-medium text-[var(--brand-accent)] hover:underline underline-offset-4 transition-all">
-              Learn which foods to avoid
+              Foods Not Included in This Reset
             </a>
           </div>
         </div>
