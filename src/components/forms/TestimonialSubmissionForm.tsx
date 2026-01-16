@@ -116,7 +116,7 @@ export function TestimonialSubmissionForm() {
     setFormData((prev) => ({ ...prev, [name]: value }));
 
     // Auto-generate initials when name changes
-    if (name === 'name' && !formData.initials) {
+    if (name === 'name') {
       const initials = generateInitials(value);
       if (initials) {
         setFormData((prev) => ({ ...prev, initials }));
