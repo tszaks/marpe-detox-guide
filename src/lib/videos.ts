@@ -420,6 +420,36 @@ const RAW_VIDEOS: Omit<Video, 'thumbnailUrl'>[] = [
     category: 'Tip',
     index: 43,
   },
+
+  // Bonus: No Bars
+  {
+    id: 'fb-44',
+    title: 'No Bars! Real Food Over Processed Cleanses',
+    duration: '0:55',
+    facebookUrl: 'https://www.facebook.com/reel/4240951989517168/',
+    category: 'Tip',
+    index: 44,
+  },
+
+  // Day 15
+  {
+    id: 'fb-45',
+    title: 'Day 15 of Detox: Apple Cider Vinegar for Bloating',
+    duration: '1:20',
+    facebookUrl: 'https://www.facebook.com/reel/902957805416029/',
+    category: 'Tip',
+    day: 15,
+    index: 45,
+  },
+  {
+    id: 'fb-46',
+    title: 'Day 15 of Detox: Easy Frozen Cauliflower Soup',
+    duration: '1:05',
+    facebookUrl: 'https://www.facebook.com/reel/906379745404677/',
+    category: 'Recipe',
+    day: 15,
+    index: 46,
+  },
 ];
 
 // Auto-generate thumbnail URLs from Facebook URLs
