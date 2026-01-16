@@ -18,8 +18,8 @@ const approvedFoodsCategories = [
   {
     name: 'Proteins',
     items: [
-      'Meat (After Day 10): Steak, Beef, Chicken, Turkey',
-      'Seafood (After Day 10)',
+      'Meat (Starting Day 11): Steak, Beef, Chicken, Turkey',
+      'Seafood (Starting Day 11)',
       'Plant-Based: Beans & Lentils',
       'Flaxseed',
     ],
