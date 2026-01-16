@@ -4792,10 +4792,10 @@ export function getVideos(): Video[] {
   // Find the pinned video
   const pinnedVideo = VIDEOS_WITH_THUMBNAILS.find(v => v.id === PINNED_VIDEO_ID);
 
-  // Get all other videos and sort by index descending (newest first)
+  // Get all other videos and sort by uploadDate descending (newest first)
   const otherVideos = VIDEOS_WITH_THUMBNAILS
     .filter(v => v.id !== PINNED_VIDEO_ID)
-    .sort((a, b) => (b.index || 0) - (a.index || 0));
+    .sort((a, b) => (b.uploadDate || '').localeCompare(a.uploadDate || ''));
 
   // Mark the pinned video
   const result: Video[] = [];
