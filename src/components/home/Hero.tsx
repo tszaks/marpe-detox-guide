@@ -23,14 +23,22 @@ export function Hero() {
             Your essential companion for the January 2026 Detox. Packed with recipes, tips, and support to make your journey easier and more effective. Check back often for new updates!
           </p>
 
-          <div className="mt-12 flex flex-col items-center justify-center gap-6 opacity-0 animate-[slide-up_1s_ease-out_0.4s_forwards] sm:flex-row">
-            <Link 
-              href="/recipes"
+          <div className="mt-12 flex flex-col items-center justify-center gap-4 opacity-0 animate-[slide-up_1s_ease-out_0.4s_forwards] sm:flex-row sm:gap-4">
+            <a
+              href="#approved-foods"
               className="inline-flex items-center justify-center font-medium rounded-full transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand-accent)] focus-visible:ring-offset-2 bg-[var(--brand-accent)] text-white hover:opacity-90 shadow-apple px-10 py-7 text-lg hover:shadow-apple-hover"
             >
-              View Detox Recipes
+              View Food Plan
               <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
+            <Link
+              href="/recipes"
+              className="inline-flex items-center justify-center font-medium rounded-full transition-all duration-200 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--brand-accent)] focus-visible:ring-offset-2 border-2 border-[var(--brand-accent)] text-[var(--brand-accent)] hover:bg-[var(--brand-accent)]/5 px-8 py-6 text-base"
+            >
+              View Detox Recipes
             </Link>
+          </div>
+          <div className="mt-6 opacity-0 animate-[slide-up_1s_ease-out_0.5s_forwards]">
             <a href="#foods-to-avoid" className="text-sm font-medium text-[var(--brand-accent)] hover:underline underline-offset-4 transition-all">
               Foods Not Included in This Reset
             </a>
