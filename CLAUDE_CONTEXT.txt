@@ -1,0 +1,36 @@
+# Marpe Detox Guide - Context
+
+**Last Updated:** January 15, 2026
+
+## Project Overview
+Next.js website for Marpe Nutrition's 28-day detox program. Includes recipes, testimonials, videos, and food guidelines.
+
+## Tech Stack
+- Next.js 16 (App Router)
+- TypeScript
+- Tailwind CSS
+- Supabase (database)
+
+## Recent Work (Jan 15, 2026)
+- Added testimonial submission feature (/submit-testimonial)
+- Form collects name, auto-generates initials, requires consent checkbox
+- Uses same pending/approved workflow as recipes
+- Fixed initials auto-generation to update when name changes
+
+## Key Features
+- Recipe browsing and submission
+- Testimonial display and submission
+- Video library (YouTube integration)
+- Approved/avoided foods lists with protein timing notes (Day 11 for meat)
+
+## Database Tables
+- `recipes` - Recipe submissions (pending/approved workflow)
+- `testimonials` - Testimonial submissions (pending/approved workflow)
+
+## Navigation
+- Home, Videos, Recipes, Submit Recipe, Testimonials, Share Your Story
+- YouTube button, Book Now CTA
+
+## Notes
+- RLS policies: public can only SELECT approved items
+- Inserts work but can't read back due to RLS (return slug/timestamp ID instead)

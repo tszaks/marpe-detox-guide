@@ -70,18 +70,13 @@ export function VideoCard({ video }: VideoCardProps) {
           {video.title}
         </h3>
 
-        <div className="mt-3 flex items-center gap-2 flex-wrap">
-          {video.day && (
+        {video.day && (
+          <div className="mt-3 flex items-center gap-2">
             <span className="rounded-full bg-[var(--brand-accent)]/10 px-2.5 py-0.5 text-[11px] font-bold text-[var(--brand-accent)]">
               Day {video.day}
             </span>
-          )}
-          {video.year && (
-            <span className="text-[11px] text-[var(--muted-foreground)]">
-              {video.year}
-            </span>
-          )}
-        </div>
+          </div>
+        )}
       </div>
     </a>
   );
