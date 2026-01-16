@@ -58,6 +58,11 @@ const quickWins = [
 
 const fullTestimonials = [
   {
+    initials: 'KD',
+    quote:
+      'My pants fit again, my skin feels soft, and my body no longer aches. After years of feeling worn down and in pain, I finally feel like myself again. This truly feels like a miracle.',
+  },
+  {
     initials: 'DC',
     quote:
       'Before I came to see Luisa, I was so depleted! I just had my second baby and I feel like I had aged 30 years! I was so thankful that the baby was sleeping, so I knew it wasn\'t sleep deprivation. My joints hurt, I had zero energy and was totally exhausted! I thought it was food related and I tried to eat better, but nothing helped. Just one week after my appointment with Luisa, I was so much better. I just finished the 28-day detox program and I feel fantastic. No pain, my joints feel good and my energy is great.',
@@ -111,11 +116,6 @@ const fullTestimonials = [
     initials: 'LL',
     quote:
       'For years, I struggled with GI issues, anxiety, and post-menopausal imbalance. Under the guidance of a clinical nutritionist and my DO, I tried bio-similar HRT, acid-reducing medications, and various natural therapies. While some of these approaches reduced my symptoms, they didn\'t address the root cause of my health issues, leaving me feeling uncertain about my healing journey. That all changed when a couple of my closest friends introduced me to Luisa. From the moment I began working with her, everything started to shift. After completing the 28-day detox under Luisa\'s care, I experienced remarkable improvements. My acid reflux eased, the night sweats disappeared, my sleep improved, and my cravings for sweets nearly vanished. On top of that, I started losing weight! I feel so blessed to have such incredible friends who introduced me to Luisa, and even more fortunate to now call her a friend too. She has truly been a transformative part of my journey to better health.',
-  },
-  {
-    initials: 'KD',
-    quote:
-      'My pants fit again, my skin feels soft, and my body no longer aches. After years of feeling worn down and in pain, I finally feel like myself again. This truly feels like a miracle.',
   },
 ];
 
