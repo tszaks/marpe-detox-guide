@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
-import { ExternalLink, Menu, X } from 'lucide-react';
+import { ExternalLink, Menu, X, Youtube } from 'lucide-react';
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -43,14 +43,25 @@ export function Header() {
                 {item.name}
               </Link>
             ))}
-            <a
-              href="https://square.site/book/4ZA2H8192GMMS/marpe-nutrition-phoenixville-pa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full bg-[var(--brand-accent)] px-4 py-1.5 text-[12px] font-medium text-white hover:opacity-90 transition-all active:scale-[0.98]"
-            >
-              Book Now
-            </a>
+            <div className="flex items-center gap-3">
+              <a
+                href="https://www.youtube.com/@luisaszakacs4371"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center h-8 w-8 rounded-full bg-red-600 text-white hover:bg-red-700 transition-colors"
+                aria-label="YouTube"
+              >
+                <Youtube className="h-4 w-4" />
+              </a>
+              <a
+                href="https://square.site/book/4ZA2H8192GMMS/marpe-nutrition-phoenixville-pa"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 rounded-full bg-[var(--brand-accent)] px-4 py-1.5 text-[12px] font-medium text-white hover:opacity-90 transition-all active:scale-[0.98]"
+              >
+                Book Now
+              </a>
+            </div>
           </div>
 
           {/* Mobile menu button */}
@@ -82,14 +93,25 @@ export function Header() {
                   {item.name}
                 </Link>
               ))}
-              <a
-                href="https://square.site/book/4ZA2H8192GMMS/marpe-nutrition-phoenixville-pa"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand-accent)] px-4 py-3 text-sm font-medium text-white shadow-sm active:scale-[0.98] transition-transform"
-              >
-                Book Now
-              </a>
+              <div className="mt-4 flex items-center gap-3">
+                <a
+                  href="https://www.youtube.com/@luisaszakacs4371"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center h-12 w-12 rounded-full bg-red-600 text-white hover:bg-red-700 transition-colors"
+                  aria-label="YouTube"
+                >
+                  <Youtube className="h-5 w-5" />
+                </a>
+                <a
+                  href="https://square.site/book/4ZA2H8192GMMS/marpe-nutrition-phoenixville-pa"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex-1 inline-flex items-center justify-center gap-2 rounded-full bg-[var(--brand-accent)] px-4 py-3 text-sm font-medium text-white shadow-sm active:scale-[0.98] transition-transform"
+                >
+                  Book Now
+                </a>
+              </div>
             </div>
           </div>
         )}
