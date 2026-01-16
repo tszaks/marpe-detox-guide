@@ -4,6 +4,20 @@ import Image from 'next/image';
 import { Play, Clock } from 'lucide-react';
 import type { Video } from '@/types';
 
+// Format YYYYMMDD → "January 16, 2026"
+function formatUploadDate(dateStr?: string): string {
+  if (!dateStr || dateStr.length !== 8) return '';
+  const year = dateStr.slice(0, 4);
+  const month = parseInt(dateStr.slice(4, 6), 10) - 1;
+  const day = parseInt(dateStr.slice(6, 8), 10);
+  const date = new Date(parseInt(year), month, day);
+  return date.toLocaleDateString('en-US', {
+    month: 'long',
+    day: 'numeric',
+    year: 'numeric'
+  });
+}
+
 interface VideoCardProps {
   video: Video;
 }
@@ -50,17 +64,14 @@ export function VideoCard({ video }: VideoCardProps) {
           {video.category}
         </div>
 
-        {/* Recent badge */}
-        {video.isRecent && (
-          <div className="absolute top-3 right-3 rounded-full bg-emerald-500 px-2.5 py-1 text-[10px] font-bold text-white uppercase tracking-wider shadow-sm animate-pulse">
-            New
+        {/* Day badge (top right) OR Non-Detox badge for archived videos */}
+        {video.day ? (
+          <div className="absolute top-3 right-3 rounded-full bg-white/90 px-3 py-1 text-[10px] font-bold text-[var(--brand-primary)] uppercase tracking-wider shadow-sm">
+            Day {video.day}
           </div>
-        )}
-
-        {/* Featured/Pinned badge */}
-        {video.isPinned && (
-          <div className="absolute top-3 right-3 rounded-full bg-amber-500 px-2.5 py-1 text-[10px] font-bold text-white uppercase tracking-wider shadow-sm">
-            Featured
+        ) : video.isArchived && (
+          <div className="absolute top-3 right-3 rounded-full bg-gray-500/80 px-3 py-1 text-[10px] font-bold text-white uppercase tracking-wider shadow-sm">
+            Non-Detox
           </div>
         )}
       </div>
@@ -70,12 +81,11 @@ export function VideoCard({ video }: VideoCardProps) {
           {video.title}
         </h3>
 
-        {video.day && (
-          <div className="mt-3 flex items-center gap-2">
-            <span className="rounded-full bg-[var(--brand-accent)]/10 px-2.5 py-0.5 text-[11px] font-bold text-[var(--brand-accent)]">
-              Day {video.day}
-            </span>
-          </div>
+        {/* Upload date - always shown */}
+        {video.uploadDate && (
+          <p className="mt-2 text-[12px] text-[var(--muted-foreground)]">
+            {formatUploadDate(video.uploadDate)}
+          </p>
         )}
       </div>
     </a>

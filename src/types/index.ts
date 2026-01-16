@@ -97,6 +97,7 @@ export interface Video {
   day?: number;
   index?: number;
   year?: number;  // Upload year (2023, 2024, 2025, 2026)
+  uploadDate?: string;  // Upload date in YYYYMMDD format
   isArchived?: boolean;  // Non-detox videos marked as archived
   isRecent?: boolean;  // Computed - marks newest videos
   isPinned?: boolean;  // Computed - marks pinned featured video
