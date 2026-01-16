@@ -34,3 +34,13 @@ export interface DbRecipeSubmission {
   instructions: string;
   image_url?: string;
 }
+
+export interface DbTestimonial {
+  id: string;
+  name: string;
+  initials: string;
+  quote: string;
+  status: 'pending' | 'approved' | 'rejected';
+  created_at: string;
+  updated_at: string;
+}

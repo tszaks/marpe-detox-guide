@@ -172,6 +172,22 @@ export default function TestimonialsPage() {
           </div>
         </section>
 
+        {/* Share Your Story CTA */}
+        <section className="text-center bg-[var(--brand-accent)]/5 border border-[var(--brand-accent)]/20 rounded-2xl p-8 mb-8">
+          <h2 className="text-2xl font-bold text-[var(--foreground)] mb-4">
+            Have Your Own Success Story?
+          </h2>
+          <p className="text-[var(--muted-foreground)] mb-6 max-w-xl mx-auto">
+            We'd love to hear about your detox journey! Share your experience and inspire others.
+          </p>
+          <Link href="/submit-testimonial">
+            <Button size="lg">
+              Share Your Story
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+          </Link>
+        </section>
+
         {/* CTA Section */}
         <section className="text-center bg-white rounded-2xl p-8 shadow-sm">
           <h2 className="text-2xl font-bold text-[var(--foreground)] mb-4">

@@ -11,6 +11,7 @@ const navigation = [
   { name: 'Recipes', href: '/recipes' },
   { name: 'Submit Recipe', href: '/submit-recipe' },
   { name: 'Testimonials', href: '/testimonials' },
+  { name: 'Share Your Story', href: '/submit-testimonial' },
 ];
 
 export function Header() {

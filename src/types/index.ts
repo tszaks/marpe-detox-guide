@@ -52,6 +52,20 @@ export interface Testimonial {
   isQuickWin: boolean;
 }
 
+// Form submission data for testimonials
+export interface TestimonialSubmission {
+  name: string;
+  initials: string;
+  quote: string;
+}
+
+// API response types for testimonials
+export interface SubmitTestimonialResponse {
+  success: boolean;
+  message: string;
+  testimonialId?: string;
+}
+
 // Quick link for external URLs
 export interface QuickLink {
   label: string;
