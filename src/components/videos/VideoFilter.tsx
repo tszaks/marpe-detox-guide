@@ -60,18 +60,15 @@ export function VideoFilter({
         ))}
       </select>
 
-      {/* Non-Detox Toggle */}
-      <button
-        onClick={onToggleArchived}
-        className={`rounded-full px-4 py-2 text-[13px] font-semibold transition-all duration-200 ${
-          showArchived
-            ? 'bg-purple-500 text-white shadow-sm'
-            : 'bg-white text-[var(--muted-foreground)] hover:text-[var(--foreground)] border border-[var(--border)]/40 hover:border-[var(--border)]'
-        }`}
-        title="Show cooking demos, recipes, and other non-detox videos"
+      {/* Type Dropdown */}
+      <select
+        value={showArchived ? 'all' : 'detox'}
+        onChange={(e) => onToggleArchived()}
+        className="rounded-full px-4 py-2 text-[13px] font-semibold bg-white text-[var(--muted-foreground)] border border-[var(--border)]/40 hover:border-[var(--border)] transition-all duration-200 cursor-pointer appearance-none pr-8 bg-[url('data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Cpath%20fill%3D%22%236b7280%22%20d%3D%22M2%204l4%204%204-4%22%2F%3E%3C%2Fsvg%3E')] bg-no-repeat bg-[right_12px_center]"
       >
-        {showArchived ? '✓ + Non-Detox' : '+ Non-Detox'}
-      </button>
+        <option value="detox">Detox Videos</option>
+        <option value="all">All Videos</option>
+      </select>
     </div>
   );
 }
