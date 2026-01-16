@@ -16,6 +16,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/25579492188408689/',
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/591457322_1432737564997295_2019160017468194729_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ce42&_nc_ohc=EkV6lnvu2WcQ7kNvwH9s5dl&_nc_oc=Adn1zhbUenArzRjqO-2UQhUwGCoaeRSApIdSuVAjO2Vo9Wj49Lj0EeM4gxDI34vuzXIo99DgdpRkeCQ2AJtYKQUQ&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=Zt0kA55chMy0jbKLXcC5ZQ&oh=00_AfppRTzq-L5eYuiZjD83qL5DIfhLP31C1Gcx6_Ys9c_HTA&oe=69706DBD',
     category: 'Daily Update',
+    year: 2025,
     index: 1,
   },
   {
@@ -25,6 +26,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/1160000329535879/',
     thumbnailUrl: 'https://scontent-lga3-3.xx.fbcdn.net/v/t51.71878-10/607120107_2476014046126747_5284972465555651567_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=50ce42&_nc_ohc=V434gzSlp_MQ7kNvwEM-aTh&_nc_oc=Adm4Qy4PfL9OzX0jOvIMXm2WVrZp5nuhIrzSREC9vFlnDjuvmuosVpp2pa06yeMv1OcHADNEqBZc146N03wSV03x&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=UnT4-jBM2CEZsPYYALy3zg&oh=00_Afr4rK1KgwewZUkanBCNKIuM76ttngK3Knf1PKke-yUu_g&oe=6970796A',
     category: 'Prep',
+    year: 2025,
     index: 2,
   },
   {
@@ -34,6 +36,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/1257753239467082/',
     thumbnailUrl: 'https://scontent-lga3-3.xx.fbcdn.net/v/t51.71878-10/608161008_1443950917358169_7983805521276082873_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=50ce42&_nc_ohc=Pa3idBsy8DMQ7kNvwFzCxNR&_nc_oc=Adkno8iApzOvuXK0tRC27bKluESX5yTaq1SO7dqTCAcl_uLu_QAs81zvwBlS8bmyP2PYTyYI8_eaMLZWQqzvYmXk&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=I7YFHUF6CXKzeC0Kvi_BmQ&oh=00_AfpFvU1JRMSGpMFPMNORt5mUToMt_VDEqxIf47hotU6d7g&oe=697056EF',
     category: 'Tip',
+    year: 2025,
     index: 3,
   },
   {
@@ -43,6 +46,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/824874700596867/',
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/608407328_1572612633770528_7311512996993247815_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ce42&_nc_ohc=h1o1Q-nsu5sQ7kNvwHFXLYu&_nc_oc=AdndG7FrHDqD71kK_aenp3wtUBX_EsJCjis6gpIGJ9TwZCdM9RAbYT0O9uSgC_CHWts9e9ql8HVpfEGJvhBkkSeX&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=PhtqAEnWs61KhF1YfG3uaQ&oh=00_Afp_d6mRb2zZh2NZDe2UemzckcTVNGsN4POl_w66v6kYQA&oe=69705EE1',
     category: 'Tip',
+    year: 2025,
     index: 4,
   },
   {
@@ -52,6 +56,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/2041384500047159/',
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/608085349_1907994073463666_382336581777737594_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=fht8pNi9FtQQ7kNvwEXHJUQ&_nc_oc=AdmBIa_Emp4-M5Gk7vI3hawq_nPDTw71-tOmFSPsFmsUwwRfu2oPqGBGa1YFp3fVfU9E9UN3gTETlqYmvx1BCTlx&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=_5giuKbjYAmdUlLJy6i5ng&oh=00_AfqoRkNPJH7f4gnzrbF40NSpL_ygTNoIL6I1OUrnJ9Y3EQ&oe=697063D8',
     category: 'Tip',
+    year: 2025,
     index: 5,
   },
   {
@@ -61,6 +66,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/1887671861846043/',
     thumbnailUrl: 'https://scontent-lga3-3.xx.fbcdn.net/v/t51.71878-10/608827122_877330448387132_5960329833040381959_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=50ce42&_nc_ohc=ntn_4f5HO10Q7kNvwF4QkGi&_nc_oc=Admrz8-t_FwGspA9hHYf6DJB90m1PNpQ-VRNrRXuHvsWlfZXWdlQzqBAxUudqOqd0B1pPZZuOgh_haniowiCc8jX&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=JlRlBF80KNUQmYj4m1zICQ&oh=00_AfqOYF5P6RbD3HOuYP5BvYdWxy9qtYhjRXxjlRSKJUkJ_w&oe=69707B5A',
     category: 'Prep',
+    year: 2026,
     index: 6,
   },
 
@@ -73,6 +79,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/609480840_1232070472138001_1642469211381241541_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=jQpSnfN4K5QQ7kNvwHvPKKm&_nc_oc=Adn6-7lddLKSLlNdonTBjTXdzoWagEJXRuFRfn8JBBT_y2C6_pYk06X-oa4sjy7tkqyElkpv0f4xtZlvcF4SzFJB&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=ISkVuZj0HPNMkqDaY5sRFg&oh=00_AfoEcnOG8XqBF2SXqp0j6DAvp6wxT22awaAKTAzpc6x4XQ&oe=69705876',
     category: 'Daily Update',
     day: 1,
+    year: 2026,
     index: 7,
   },
   {
@@ -83,6 +90,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/608312468_1251950656756692_8124801194388247750_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=mZTtzbor1CYQ7kNvwGomzj_&_nc_oc=AdmoZYTE2upLlNbysB82wFOKr9g4Tg9TRiPE7lRjGO3-iWy9SZgedpv3WEnExkGLSJVK3mh-w9fgDqg_AJY4FXHC&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=NVIKWJIgWcAYNAY4GORYvw&oh=00_AfoADxYr2zTnsd5zp-vSpRAZnk-rEgMmNjCpWVGBajDhCQ&oe=69705F02',
     category: 'Daily Update',
     day: 1,
+    year: 2026,
     index: 8,
   },
   {
@@ -93,6 +101,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/610157187_1193084342424786_8499217285411929484_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=5pNHl78mxSAQ7kNvwHS7hrn&_nc_oc=Adlu3mtaBWriUYhEK8yib6xWgzV8YhAi_1XqxkjWmCSvYYsPTJTmtg7SIJInjY1uEkDtWpB3QZpXMuyMZITyhYCe&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=dNFSCG-_U7ZOsc6f8T47FA&oh=00_AfpZg0c4WVSr3KU4ZUFlAREFyvffRtwdXQw-4e1tArDTcw&oe=697084C9',
     category: 'Daily Update',
     day: 1,
+    year: 2026,
     index: 9,
   },
 
@@ -105,6 +114,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-3.xx.fbcdn.net/v/t51.71878-10/588471619_1392106755718955_85224816424474683_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=104&ccb=1-7&_nc_sid=50ce42&_nc_ohc=8r09ITPXT1YQ7kNvwHSEfJK&_nc_oc=AdlWC0avmy34aos6PpqXjzrbNcEbjso6Evcv02sNO8yjbXOfB6K5bK69GOtseId4tN-CyCUivzlroA9bf0m_FBDo&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=1bkrH5zEC_VO7aqBHtfD2A&oh=00_AfpqUV5tY9zO2lz_G5l0RepZmXJPSvPUrG6rXlHkgzPvFQ&oe=69706736',
     category: 'Daily Update',
     day: 2,
+    year: 2026,
     index: 10,
   },
   {
@@ -115,6 +125,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/607722137_1599946357829915_4608075987326511271_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ce42&_nc_ohc=ID7yF1hig8YQ7kNvwG3xshn&_nc_oc=AdmE_wSLnlXXCFGrVx3iT1uMbK-CqJrAVPWg0YZ3go28ArN0ISOTH1apFsZe0Cll2pg4duiEJD6xI7AGJZl-u3nU&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=M1nAgDi245QmeAbQKZdhfQ&oh=00_AfrSCsE9ClC1c5ORsu4BbEv0VlpzKFUralOOuAqNQjCsgA&oe=6970832C',
     category: 'Daily Update',
     day: 2,
+    year: 2026,
     index: 11,
   },
   {
@@ -125,6 +136,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/610819800_1199065855142545_2121848029900885545_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=50ce42&_nc_ohc=s6ombtRO0_gQ7kNvwGv1-1-&_nc_oc=AdkWnGN1NcDxhC4_wovCuCesKlNg6nH9CV5ha7q7qGrfLoKBkHH44jgpu07uL1igBuAQ2WP0GRPGTE558NTTClaY&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=v0BnAQ3VHUnh3VL1zfjPVg&oh=00_AfrnNfSs82iHbaR9Nwf_HI3XpMZFw3YZUtMHhOpAOdDfPg&oe=69706924',
     category: 'Tip',
     day: 2,
+    year: 2026,
     index: 12,
   },
 
@@ -137,6 +149,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/610586063_1617736409242233_8411997392931444875_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=50ce42&_nc_ohc=fg_pn9_2kDwQ7kNvwHeeeD8&_nc_oc=AdlDuWRMnySVx2zr4NwbKaWAMCVIReE5_rgALv0h_xCTmbVJlLenFNyoYTt1lRmfe7j8kQTxbh5Qo1djxM4OXSvN&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=u0c4PA7Jjhc_k_5XdlX0pQ&oh=00_Afq_mmAZh7kUWZEgB488UGqhpJ37I2AG00Nzt72YUoEK3g&oe=69706C81',
     category: 'Recipe',
     day: 3,
+    year: 2026,
     index: 13,
   },
   {
@@ -147,6 +160,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/610662912_1560106705133811_327570227037039772_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=uACeFbawnmwQ7kNvwE0_pDz&_nc_oc=AdlPgyh8HTPmHQ5IVYBujIq3l-AiVhUzscQ97ZIs9Zy0PZvROdUFpiZ8J-rHvoh7WCtYKsVYQEOw7OztLeTgMbIZ&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=G-maPxSfiaszeRhfgniq2g&oh=00_AfokgX4fpC7cksRRDfDdnlHf1BxXULxEgxLcHicP_3HOrg&oe=697065E7',
     category: 'Daily Update',
     day: 3,
+    year: 2026,
     index: 14,
   },
   {
@@ -168,6 +182,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/610392366_868601318863440_4001577108349726433_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=50ce42&_nc_ohc=WyVKiBs0GLUQ7kNvwFzLwRF&_nc_oc=AdnkpjCxPlk-3frvGVf5veEm4HeBVUZyfQ_bRr-cUxyOZulhzzqcKDuZoEsnpkw4FO_sHlD_YeQj0ND3EjuIwdw9&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=Jb8wXdJEpR4JX2rIhofFrQ&oh=00_AfoIc2xNvdUfgut-pCqk1zgkfflTHKm_NayfTt0OfHUC8Q&oe=697080F6',
     category: 'Recipe',
     day: 4,
+    year: 2026,
     index: 16,
   },
   {
@@ -178,6 +193,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/610659096_2105783640234542_8236220912723520494_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=EEsKT64Y8fAQ7kNvwHMsv-A&_nc_oc=AdlKOeEMTG9b7OYN7SJLdtC6TsIzHzKdjh5R6titFJJc0BMAvdxjZ1F9FNEQcukI2jePqR5VpXHoNzPCCel4e45U&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=kkgjevs6ELV1HVYqdj0vyg&oh=00_Afq4iKJ8_qHdfSwwrc44eXFCKlOn1yDj3X4U3EdDhaWz1A&oe=69708056',
     category: 'Tip',
     day: 4,
+    year: 2026,
     index: 17,
   },
   {
@@ -188,6 +204,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/610627798_880957308220791_618323233458478590_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=6Nv1_YVBBCwQ7kNvwFMNiky&_nc_oc=AdkjKBCko7SMe4zBVt2XkYuWH3rdPmOBzv4MiwYSCm-JY78Jz-4MAM6hlE9RCS1eLZSYNzZuPKdPObV5QxlPkC3S&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=RYVSlXTdCXtt78cEKTJG9g&oh=00_Afo287SxvM3uWvS2EqfLzmDOcmizCPuYqfIEg8zvx6dL2g&oe=69707703',
     category: 'Recipe',
     day: 4,
+    year: 2026,
     index: 18,
   },
 
@@ -200,6 +217,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/607780727_3733214793480969_1840443516842206177_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ce42&_nc_ohc=mFFtuCDhMmAQ7kNvwGkgdpI&_nc_oc=AdmGwI6TtyM6zicI18uNvqQbzsNRB9kHhdBs1RDjXdcGwT2Pd00Q6a0IKjo66a8eGKRDERZXuxoLYH7Rlo2OCcsz&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=agA0DNn07PL-wMM99yjTAg&oh=00_Afo6nuFtigmIpp-fjMZzYDIPb8ZSYtj1OfSuL68_C0VIUA&oe=697068B0',
     category: 'Recipe',
     day: 5,
+    year: 2026,
     index: 19,
   },
   {
@@ -210,6 +228,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/610964006_1175007158143056_2367945742029643506_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=SAllc9rBNYgQ7kNvwF8SdXw&_nc_oc=Adm9FQS0CzwimjJVMyhlyTL9EjV6t6tHtEBdfDWOI9rTTCq4iSTy2Uuj4oEDN7Iq9m-sHNyF99pOVbaElqMhpSxb&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=lIg9NdCEcA0lFdoctHy-jA&oh=00_AfohunGgBlXPEVoRZ1OHfmcMUzX0EzoC7xUNMgwKW0mvfw&oe=69706536',
     category: 'Recipe',
     day: 5,
+    year: 2026,
     index: 20,
   },
 
@@ -222,6 +241,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/610783678_838639605667981_1001475431505644985_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=50ce42&_nc_ohc=hGJyn2dECTcQ7kNvwHsk3Yo&_nc_oc=Adly_lqx3ObdFvxfoKyYVgeM2Q-1V9IWnRafRY1pY4z6tuKXg6qly84xB1FnpqHZa2__M3NirXchcCnFH1oSd-nU&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=4LPGZAMHDPoFksjTzme0aQ&oh=00_Afr78OJogVCuQXpmSXtaovib5JJNDR7tX3-dZegfFSm8Mg&oe=6970825D',
     category: 'Recipe',
     day: 6,
+    year: 2026,
     index: 21,
   },
   {
@@ -232,6 +252,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/607807638_1197065459202387_9143612709511615410_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=50ce42&_nc_ohc=Du6S39BCkT8Q7kNvwGSYMWP&_nc_oc=AdklghcWwlBgKe-bmaGglO3VYaI__9HOS83ch9eljJ1B6FLtiB5EYtfCzVNclqMsqyApeig3wODlA907T4UoBq5M&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=3JPsztjwucKvzOyRrQE0nw&oh=00_AfrtCI5APaIa7TIvzzpkvLuxz3tsE4hTFUVX-skuFfzZcQ&oe=697075E2',
     category: 'Tip',
     day: 6,
+    year: 2026,
     index: 22,
   },
 
@@ -243,6 +264,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/1225699539432441/',
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/591577728_3802181896744234_3453106761665319241_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=uztBaD5_iucQ7kNvwGxSrY5&_nc_oc=AdkQiuHDHAEjN2vxMNs1eooSau7_yo_dtlPMw-zPQNjXlK8PeTeZxun-k30HZjz8hWjwnqUF-xhsm74ILErTSVW3&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=rw8CUhbhqwc5bcRRJH48pg&oh=00_AfrKyUZqboElndn1SA2eM2oYD36BJH4_wU_P4u1LieRWfQ&oe=69707E5F',
     category: 'Tip',
+    year: 2026,
     index: 23,
   },
 
@@ -255,6 +277,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/611844754_1099496338877315_9063337677904213384_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=50ce42&_nc_ohc=IueACh03rg8Q7kNvwGauZVv&_nc_oc=AdkU7Ml3tuKoHIeAyu8OjX6PyPsKu2aQ8Uy7cAhYxTgtGpPzsKZ1jM9CHirzX2RS5qbt5JIXwkdnzjxhv0IhGn09&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=jXpfLFNoxhQ8ZyCLVFOJgA&oh=00_AfpXu5zymmMsGH9Tboxyj0MFy82MPDb4KNNYVBaC1eIJCw&oe=69706AA2',
     category: 'Recipe',
     day: 7,
+    year: 2026,
     index: 24,
   },
   {
@@ -265,6 +288,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-3.xx.fbcdn.net/v/t51.71878-10/612475704_1937273900218008_6643819348859825355_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=110&ccb=1-7&_nc_sid=50ce42&_nc_ohc=nCoTZ27LX0wQ7kNvwF1Vq10&_nc_oc=Adl3b7lbWTnVESLQ26qFr4t73GdKXR98vKfE7NOvUk9d6xHnkgPm4_wDm8GX96kwumuVmjslNQFPAu8SKA4NANOT&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=NUqyjjYeI1iEH3GVqjK-sw&oh=00_Afocdwo0NvIqUTat61I9rPEvS7SK3ePNyBC5eZVxFHTlYg&oe=697059F1',
     category: 'Recipe',
     day: 7,
+    year: 2026,
     index: 25,
   },
   {
@@ -275,6 +299,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/612498970_1849025292485491_4693083117613315878_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=TK2sHiKCcvkQ7kNvwEwdwTq&_nc_oc=Adkz8jpFBy6QBS-IblAO48yWR7zhC_7VBRYWAysACNyCd12aNVcHjnuVqe7F07BrDBPkGrP90GQw0ndzwjB7RZBd&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=BhLqOCygKOBQto-zMe1zIw&oh=00_AfpdWja1LOtZTYZOy3UYGN0tr8JEO8KQB_du0FCzH4WYAw&oe=6970670B',
     category: 'Tip',
     day: 7,
+    year: 2026,
     index: 26,
   },
 
@@ -287,6 +312,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/612052426_808345705561017_4917150743679022937_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ce42&_nc_ohc=UucDGYfyBbIQ7kNvwGnvNCk&_nc_oc=Adk0V2CZyKHjFfPmXx44rUVdkLZJal1h80rsIMjAt248bL-JIzBBOrQyc4J9NNOYhknaYyfBqTvSh6GjHcxTyJF_&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=H3ZjxOzf8K5glPmPZNFCxA&oh=00_Afo_O_OdvjoPIXd6r1qvhj1NwoPikQkdy5ZlmK1WryfF_g&oe=6970649A',
     category: 'Recipe',
     day: 8,
+    year: 2026,
     index: 27,
   },
   {
@@ -297,6 +323,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/613020181_1265902072025373_8099716722716123768_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=50ce42&_nc_ohc=qpZb-_4rxHUQ7kNvwELqsPB&_nc_oc=AdmYy2jtHAK83mA5BJoipPvoIjmvmHmgOJazQT1bUGh2_rCEHSfcqAJ-a54_jPWRs6FGu28UaozgdIXGdUtTnNw6&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=z5NK9ocztzERqEG94g07qQ&oh=00_AfrmO4NBkCI-xLLsjiZ7LElUirOO_1uOOsWZJUg1OVxC3A&oe=69707B14',
     category: 'Tip',
     day: 8,
+    year: 2026,
     index: 28,
   },
 
@@ -309,6 +336,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/612995090_2303285496850659_6696222755719404409_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=Xb5eUzVRgm8Q7kNvwFZUPXR&_nc_oc=AdmeYDFAKT0pCL9HelbcPlDLuHirX9pOTq1S99qa01z90gZ6PYu5PfGVOfN714aNSojudrYe5L1G9WzsITF-tlJu&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=dmn3pmYylEhjuZycnclP-Q&oh=00_AfopEZ1D67wDjlir7xwkHi8txs10feAVI9IiXWzduj2UHg&oe=69706D8B',
     category: 'Recipe',
     day: 9,
+    year: 2026,
     index: 29,
   },
   {
@@ -319,6 +347,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/610606218_1532357334484451_4626075464963665222_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=209iOYiAoPkQ7kNvwHc0lBj&_nc_oc=AdlZZj4hbQ3SbsN70ah4D1YCtSIcq0wQLHqPTXAJxQxo6PfVv4qHbmI3eKWlQM1TO1sfoyGSEPJu1lIh_Hj0zJCZ&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=jC9sxAZMeJiB9OTYMGvniA&oh=00_AfrGexnmsvevbU3Hfo7Yi9NNUOeEKJmzriCi60rZUzVXoA&oe=6970576C',
     category: 'Tip',
     day: 9,
+    year: 2026,
     index: 30,
   },
 
@@ -331,6 +360,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/587979031_1205082261143943_5195515672725117989_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ce42&_nc_ohc=C6Y2Tw4ZibIQ7kNvwHYaUEq&_nc_oc=AdmfcT-X0r1QTwjCt-xFFuORdyJGn24U2DTnMYzeOjCc9kIo9zNpm8eh2mF4-jNEHFHwwFrk-oBTmDkvH50lp5Aw&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=nYu9Oa6jui-UXCs5HNO8uw&oh=00_AfrG3G2elz5Cxqnjzz0TPC9I2jXoz6zuskJwPdJD5cQZLA&oe=69707A7E',
     category: 'Recipe',
     day: 10,
+    year: 2026,
     index: 31,
   },
   {
@@ -341,6 +371,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/611242020_1648529026529696_3428999390785819029_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=50ce42&_nc_ohc=U3A8SaDJDtsQ7kNvwHVxOpN&_nc_oc=Adm5HYEEes2VmiBpPHVfVvRmq0NTc-Bfj_y2hxvxEO9Q-LiMHRZCD-DD4Sf1OgyBgF9MMC1F5-sZb2k2UEuUvOcL&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=s7pTg4q_QB3BXQ76rhenOQ&oh=00_Afr65h0JQvpiIka1kKAmPPkW-3Kdd1HFeM1ABG0-iA7G3A&oe=697076B2',
     category: 'Tip',
     day: 10,
+    year: 2026,
     index: 32,
   },
 
@@ -353,6 +384,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/610913028_936731918676971_4273543631637399658_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ce42&_nc_ohc=iA2mUtQgu7sQ7kNvwEokvbV&_nc_oc=AdmXb2ogBEzQBibX-BoT05ly3Y2QC8eHalrzU5iAftrQJtYeO0xXx71Z5oSHWPMkHpyrtitZiN2dmsq6DoxwWdZb&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=SVdMJf6ry3aYASpHvrJtlg&oh=00_AfrdTLm01f-jHAaRwOQF0cJLgGp6NbEDZ9_Nk0OH46lGpg&oe=69707D3A',
     category: 'Tip',
     day: 11,
+    year: 2026,
     index: 33,
   },
   {
@@ -363,6 +395,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/613201088_879732318148807_845911807389733544_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ce42&_nc_ohc=rdelT2tT1WMQ7kNvwFHKbuS&_nc_oc=Adm3piOuFJakW1_6ATPNmF6FIQ-FQQyk-PgDVECYxrM2hhfjtp62chj-a8J-B2SpbCcZwHLLyUCvslyyX5zHKvA3&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=D1TKEvi84vwytjbkai1znw&oh=00_AfrRdP1NE2BTSMD4sWKDfdKoVPwyCjSpB2YkV0jXpYWScA&oe=69705AA7',
     category: 'Daily Update',
     day: 11,
+    year: 2026,
     index: 34,
   },
 
@@ -374,6 +407,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/1553777609104910/',
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/612600689_848890554791380_2873413362768801089_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=50ce42&_nc_ohc=qbs_yKvnYPcQ7kNvwF6J53X&_nc_oc=AdlYHjyEBvMq7T3BUkSiQwr_jshrlIcjLLyn4pRHWBwyPBBjCZP7KjfN8YahT-nL3hlFvt3Cbq55BpMBe-c3FuNz&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=OVgVy_nP6vkQaD92Znd77A&oh=00_Afr5o4Vz37cMKTFbu1CWaUDAXOkwGLGLVt5wm_EYk8tpsQ&oe=69705AB3',
     category: 'Tip',
+    year: 2026,
     index: 35,
   },
 
@@ -386,6 +420,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/612989528_897392812671977_2109004802162433897_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=RkIUNFkIq0sQ7kNvwHTAaSu&_nc_oc=AdlvgLXNfomk5nCSyeglIEH-rp5qc3P_78qtjHeu_Sj8_7ZDdOjLMdv-H42k5wM1xxORbceHfsJMM76OBabqOpU3&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=V_MUKGkv74laA-dJnCJPuw&oh=00_Afoy4euh9aSlFE0ogWIWg1DQZNElXr1Oj_vCTAByHnAKMg&oe=697067ED',
     category: 'Recipe',
     day: 12,
+    year: 2026,
     index: 36,
   },
   {
@@ -396,6 +431,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/611257300_1400374148480699_987620399922461599_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=107&ccb=1-7&_nc_sid=50ce42&_nc_ohc=jhWSkCkqvCgQ7kNvwFUmEea&_nc_oc=AdlyUXH29ErglFNfUNb0creR50lHebHUOY8eBhwKIAI-plMboNTzsnPomRDS4Oj7YTGzfbMonn99vsUm3A44q0HB&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=e-93rQmVHN1YpkMIaxEy2A&oh=00_AfqcVld4qY2BOyVJ8JSTwZlysTesak_M2_huAjCXhwwF7w&oe=6970752B',
     category: 'Recipe',
     day: 12,
+    year: 2026,
     index: 37,
   },
 
@@ -408,6 +444,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/616102564_2053888298778848_3512263597521699163_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=Db2PjoE9QkUQ7kNvwF_MM9s&_nc_oc=Admti5dyOf4lzrcgrzicQgzyOqax00K_G61y2VWOEb2r_u51xT0suEe0vUmbqmXOMIMH6iV63EpKq822-pdMqxTt&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=40MKdbzQvry2w2HiRNMoHg&oh=00_AfrD-_nRFhnmlksx1jLzhdavvkiQje4TlX7gu788izaGJQ&oe=69705D04',
     category: 'Recipe',
     day: 13,
+    year: 2026,
     index: 38,
   },
   {
@@ -418,6 +455,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-3.xx.fbcdn.net/v/t51.71878-10/613500232_3823428451296883_2006571101039547602_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=104&ccb=1-7&_nc_sid=50ce42&_nc_ohc=QuxDePqB47EQ7kNvwGfRVg4&_nc_oc=AdlmilYECtyI2A6zbwv5gEp2ywkSNKwNFhhQFnz5AgMlvRsFnT5gDww1Yv29OBmh9Ug1T5UaCsqxqX-BZQ42a2rO&_nc_zt=23&_nc_ht=scontent-lga3-3.xx&_nc_gid=cvJyYeTgqMJN99Sd27khVQ&oh=00_AfpIUr614Bss4kw2mIPx1NYKKafgwd39bEv7mKJBase5QA&oe=69707D75',
     category: 'Recipe',
     day: 13,
+    year: 2026,
     index: 39,
   },
 
@@ -430,6 +468,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/609952439_819691277797290_1772748348772913961_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=101&ccb=1-7&_nc_sid=50ce42&_nc_ohc=anANVZzBHeMQ7kNvwEgzBbo&_nc_oc=Adk5_LTi1GfrglW5NB3RlUZ-sWHXMCaeb9VleNV-oVlrAqk-EalfB-tcAnFb8P4hWscTnsL2oqQLVW1XF550mtrd&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=Q7YgIYMcM75CpXL4gewi8g&oh=00_Afre5PvYM9XAhMDmam2XUwaGMoHZY7lYQPhZ6GwZkLS8yQ&oe=6970707F',
     category: 'Recipe',
     day: 14,
+    year: 2026,
     index: 40,
   },
   {
@@ -440,6 +479,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/615959747_901297559006288_3980149939262499145_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=JUFB5I_Ne0QQ7kNvwF__MBl&_nc_oc=AdmKEPsCN05jy9-9U21_YTF0n0fgro7MwroJnRHeY70vcfMKh2harDgmSCSihERuV3i6MqbeuHNCLVCzgtxqpBzg&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=Igz46vUwBHn3Q-8vLbvc9g&oh=00_Afo7JS2BklGTC8tD-bzzNNr0Br229KG-5eW7ggE-_i24uA&oe=69707E7F',
     category: 'Recipe',
     day: 14,
+    year: 2026,
     index: 41,
   },
 
@@ -451,6 +491,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/1400645988456516/',
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/613011130_1225462509532683_3330632186118171878_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=105&ccb=1-7&_nc_sid=50ce42&_nc_ohc=qeRzufkHVsoQ7kNvwHQFKWK&_nc_oc=AdlIa40WmZDTxp2eF8pMP-lZfCnVbI0QwQ4ke1rEY6LOCCTtYS-nayh9kMsh7ti-OhrcUnxso0oB-9cCg1Ehg0fi&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=_-mXECb-Iaii4qzDnPzBuQ&oh=00_Afpbk0CSu1TS-bmZUA276dAAyiVa1XWOzzuwnSDWu_Ho5g&oe=697087BC',
     category: 'Tip',
+    year: 2026,
     index: 42,
   },
   {
@@ -460,6 +501,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/34192764246977439/',
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/616224865_1416308866840296_5981179060094701813_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=8v97NIWGCQkQ7kNvwFTkveE&_nc_oc=AdnjDBtmGw6VS_JPn-R5YWrp2WWMl4uE8RBMqMiPxIwIWJAcOpk_O2h_ygWOHZ7t8tmLs909JcUnjhVtHChhRubs&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=tPZZ4n72kFZpmVS0Nk50Jw&oh=00_AfrJ-nnQCGwJRrF7a2SYjtYRu-z8yOQqOGTPvEMAkGNVKQ&oe=69707055',
     category: 'Tip',
+    year: 2026,
     index: 43,
   },
 
@@ -471,6 +513,7 @@ const RAW_VIDEOS: Video[] = [
     facebookUrl: 'https://www.facebook.com/reel/4240951989517168/',
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/607803941_1563428901620996_4633085922997028925_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=100&ccb=1-7&_nc_sid=50ce42&_nc_ohc=KSTT_pM3ThcQ7kNvwG7DIWN&_nc_oc=AdlzZj_BEI4ZXPidOB9zFPm43m2tw0y6w6FPMOd396b3N_ejyXBcBpZR8kDWIWPQw8Y7qc3QOCbiz95UVFOIOFRz&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=FJ3tBp3Hz-lzw1gBZqcFQQ&oh=00_Afq46ouiuUZModnZggIh-Qtc-ab2cGaZ-KUcnhS--sdJng&oe=6970677B',
     category: 'Tip',
+    year: 2026,
     index: 44,
   },
 
@@ -483,6 +526,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/615215669_2331497090687657_6889835093519500482_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=z9Sgui5-hUoQ7kNvwFqaR3i&_nc_oc=AdmYvnBadFoKY_bwHfFiS9ccjdS9ENGcz_UkTnR4P8CN4HEu1hoep_z2j59ozkP3ncXryhTHlfESeZL52YvM3S8V&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=xs9-A4aV9OtiGM9aAFVI2g&oh=00_AfpSS1jJKy_ktZIL4PyGOp6PCwmk7dtyeTbDfc3f8iNThg&oe=69705BC1',
     category: 'Tip',
     day: 15,
+    year: 2026,
     index: 45,
   },
   {
@@ -493,6 +537,7 @@ const RAW_VIDEOS: Video[] = [
     thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t51.71878-10/616388843_1197086922533357_6270624393410851227_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=50ce42&_nc_ohc=tp8hyhdr-pAQ7kNvwHZmbHT&_nc_oc=Admqd3s1lPRsOnpGbZUZuk-L673tXgI_PeINHFpBAgsHiJobMUR2hPm9aT5d5EQGOA30we4aX3uOn6Zt0QzN5ePK&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=cfnBrGGSbnKVIMgQOlpenw&oh=00_AfrGnnVHesepLiGs82YJ7dNqRbzbiniOfPUuMGhhZ7mYQA&oe=697084BF',
     category: 'Recipe',
     day: 15,
+    year: 2026,
     index: 46,
   },
 

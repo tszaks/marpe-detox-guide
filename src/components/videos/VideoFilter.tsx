@@ -50,16 +50,17 @@ export function VideoFilter({
           </button>
         ))}
 
-        {/* Archived Toggle */}
+        {/* Non-Detox Toggle */}
         <button
           onClick={onToggleArchived}
           className={`ml-4 rounded-full px-4 py-1.5 text-[12px] font-semibold transition-all duration-200 ${
             showArchived
-              ? 'bg-amber-500 text-white shadow-sm'
+              ? 'bg-purple-500 text-white shadow-sm'
               : 'bg-white text-[var(--muted-foreground)] hover:text-[var(--foreground)] border border-[var(--border)]/40 hover:border-[var(--border)]'
           }`}
+          title="Show cooking demos, recipes, and other non-detox videos"
         >
-          {showArchived ? '✓ Archived' : 'Show Archived'}
+          {showArchived ? '✓ + Non-Detox' : '+ Non-Detox'}
         </button>
       </div>
 
