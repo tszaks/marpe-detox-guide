@@ -1333,6 +1333,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Tip',
     uploadDate: '20240930',
     year: 2024,
+    isArchived: true,
     index: 109,
   },
   {
@@ -1344,6 +1345,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Workshop',
     uploadDate: '20240407',
     year: 2024,
+    isArchived: true,
     index: 110,
   },
   {
@@ -1366,6 +1368,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Tip',
     uploadDate: '20240329',
     year: 2024,
+    isArchived: true,
     index: 112,
   },
   {
@@ -1424,6 +1427,7 @@ const RAW_VIDEOS: Video[] = [
     day: 1,
     uploadDate: '20250513',
     year: 2025,
+    isArchived: true,
     index: 119,
   },
   {
@@ -1986,6 +1990,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Tip',
     uploadDate: '20250817',
     year: 2025,
+    isArchived: true,
     index: 166,
   },
   {
@@ -2019,6 +2024,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Tip',
     uploadDate: '20250402',
     year: 2025,
+    isArchived: true,
     index: 170,
   },
   {
@@ -2118,6 +2124,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Tip',
     uploadDate: '20251023',
     year: 2025,
+    isArchived: true,
     index: 179,
   },
   {
@@ -2129,6 +2136,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Tip',
     uploadDate: '20250729',
     year: 2025,
+    isArchived: true,
     index: 180,
   },
   {
@@ -2151,6 +2159,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Tip',
     uploadDate: '20251028',
     year: 2025,
+    isArchived: true,
     index: 182,
   },
   {
@@ -2184,6 +2193,7 @@ const RAW_VIDEOS: Video[] = [
     category: 'Tip',
     uploadDate: '20250424',
     year: 2025,
+    isArchived: true,
     index: 185,
   },
   {
