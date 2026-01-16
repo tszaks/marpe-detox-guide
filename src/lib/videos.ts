@@ -2000,17 +2000,6 @@ const RAW_VIDEOS: Video[] = [
     index: 167,
   },
   {
-    id: 'fb-168',
-    title: 'Breaking Fasting Rules: Vitamins During Detox Hours',
-    duration: '1:00',
-    facebookUrl: 'https://www.facebook.com/reel/1099960472182187/',
-    thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.75761-10/503211995_18061315907516327_8802445717969130989_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=111&ccb=1-7&_nc_sid=50ce42&_nc_ohc=X28o0SejZf8Q7kNvwGBKRrl&_nc_oc=AdnR7CZlusGSIS6iVAKMp38-XggRpkXAlp3gRNSYGl4l2W_RzOfDKIwMEQtXn45s6IBxpCH-yKA7fbVg9mk-M6bo&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=30uKiFaj3irE9dJuVJxqBg&oh=00_AfrrVMDH0GqOIMkYiB2_NEezE4O8YvguTpw6X5q3aqIS4w&oe=69707093',
-    category: 'Tip',
-    uploadDate: '20250605',
-    year: 2025,
-    index: 168,
-  },
-  {
     id: 'fb-169',
     title: 'Can I Use My Protein Powder on Detox?',
     duration: '1:00',
