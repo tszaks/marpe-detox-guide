@@ -64,8 +64,12 @@ export function VideoCard({ video }: VideoCardProps) {
           {video.category}
         </div>
 
-        {/* Day badge (top right) OR Non-Detox badge for archived videos */}
-        {video.day ? (
+        {/* Top right badge: Featured > Day > Non-Detox */}
+        {video.isPinned ? (
+          <div className="absolute top-3 right-3 rounded-full bg-amber-500 px-3 py-1 text-[10px] font-bold text-white uppercase tracking-wider shadow-sm">
+            Featured
+          </div>
+        ) : video.day ? (
           <div className="absolute top-3 right-3 rounded-full bg-white/90 px-3 py-1 text-[10px] font-bold text-[var(--brand-primary)] uppercase tracking-wider shadow-sm">
             Day {video.day}
           </div>
