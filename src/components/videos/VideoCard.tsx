@@ -23,11 +23,13 @@ interface VideoCardProps {
 }
 
 export function VideoCard({ video }: VideoCardProps) {
-  // Prefer Facebook URL if available, otherwise fall back to YouTube playlist
+  // Prefer Facebook URL if available, otherwise fall back to YouTube
   const videoUrl = video.facebookUrl
     ? video.facebookUrl
     : video.youtubeId
-      ? `https://www.youtube.com/watch?list=${video.youtubeId}${video.index ? `&index=${video.index}` : ''}`
+      ? video.index
+        ? `https://www.youtube.com/watch?list=${video.youtubeId}&index=${video.index}`
+        : `https://www.youtube.com/watch?v=${video.youtubeId}`
       : '#';
 
   return (

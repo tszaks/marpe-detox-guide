@@ -1341,7 +1341,6 @@ const RAW_VIDEOS: Video[] = [
     title: 'Marpe Guest Workshop',
     duration: '1:00',
     youtubeId: 'Cd9v6Zugdrc',
-    facebookUrl: 'https://www.facebook.com/reel/949577743295640/',
     thumbnailUrl: '/thumbnails/Cd9v6Zugdrc.jpg',
     category: 'About Marpé',
     uploadDate: '20240407',
