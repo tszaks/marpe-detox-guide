@@ -103,4 +103,4 @@ export interface Video {
   isPinned?: boolean;  // Computed - marks pinned featured video
 }
 
-export type VideoCategory = 'Daily Update' | 'Recipe' | 'Tip' | 'Workshop' | 'Prep';
+export type VideoCategory = 'Daily Update' | 'Recipe' | 'Tip' | 'Workshop' | 'Prep' | 'About Marpé';

@@ -1340,12 +1340,13 @@ const RAW_VIDEOS: Video[] = [
     id: 'fb-110',
     title: 'Marpe Guest Workshop',
     duration: '1:00',
+    youtubeId: 'Cd9v6Zugdrc',
     facebookUrl: 'https://www.facebook.com/reel/949577743295640/',
-    thumbnailUrl: 'https://scontent-lga3-2.xx.fbcdn.net/v/t15.5256-10/428175919_445959704858681_2966678387866161969_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=109&ccb=1-7&_nc_sid=be8305&_nc_ohc=MrL5mo6Wnd8Q7kNvwGBsuky&_nc_oc=AdnDV-65-1H4FgLybxkkS_QFdj_h_nlk_hYIH8eY36KEPPK4hWCihDA-J1aBsh3Hvum7mzeH3nVYcda4OFs3aj59&_nc_zt=23&_nc_ht=scontent-lga3-2.xx&_nc_gid=qWCClpvhNFa3P702u1JWZA&oh=00_AfrjiDo-4mJDtiPAXJk9LnZNxnQVitralMR22Ejh0YyhFQ&oe=69706D9D',
-    category: 'Workshop',
+    thumbnailUrl: '/thumbnails/Cd9v6Zugdrc.jpg',
+    category: 'About Marpé',
     uploadDate: '20240407',
     year: 2024,
-    isArchived: true,
+    isArchived: false,
     index: 110,
   },
   {
@@ -4819,5 +4820,5 @@ export function getVideos(): Video[] {
 export const VIDEOS = getVideos();
 
 export function getVideoCategories(): string[] {
-  return ['All', 'Daily Update', 'Recipe', 'Tip', 'Workshop', 'Prep'];
+  return ['All', 'Daily Update', 'Recipe', 'Tip', 'Workshop', 'Prep', 'About Marpé'];
 }
