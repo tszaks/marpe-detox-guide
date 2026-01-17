@@ -13,7 +13,7 @@ export const revalidate = 60;
 
 async function RecipeList() {
   const recipes = await getApprovedRecipes();
-  const categories = getRecipeCategories();
+  const categories = await getRecipeCategories();
 
   return <RecipeBrowser recipes={recipes} categories={categories} />;
 }

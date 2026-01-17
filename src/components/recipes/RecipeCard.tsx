@@ -9,16 +9,18 @@ interface RecipeCardProps {
 
 // Map recipe types to Lucide icons
 const typeIcons: Record<string, LucideIcon> = {
-  Entrees: Utensils,
-  Side: Salad,
+  'Main Dish': Utensils,
+  'Side Dish': Salad,
   Seafood: Fish,
   Vegetable: Leaf,
   Soup: Soup,
-  Snacks: Cookie,
+  Snack: Cookie,
   Dessert: Cookie,
   Beverage: Droplets,
+  Breakfast: Utensils,
+  Salad: Leaf,
+  'Sauce/Dressing': CookingPot,
   Miscellaneous: Package,
-  Condiments: CookingPot,
   'Client Submission': User,
 };
 

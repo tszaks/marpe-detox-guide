@@ -237,19 +237,16 @@ export async function createRecipeSubmission(
 }
 
 /**
- * Get all unique recipe categories
+ * Get all unique recipe categories dynamically from database
  */
-export function getRecipeCategories(): RecipeType[] {
-  return [
-    'Entrees',
-    'Side',
-    'Soup',
-    'Snacks',
-    'Dessert',
-    'Beverage',
-    'Vegetable',
-    'Seafood',
-    'Condiments',
-    'Client Submission',
-  ];
+export async function getRecipeCategories(): Promise<RecipeType[]> {
+  const recipes = await getApprovedRecipes();
+  const categorySet = new Set<RecipeType>();
+  
+  recipes.forEach(recipe => {
+    recipe.recipeTypes?.forEach(type => categorySet.add(type));
+  });
+  
+  // Return categories sorted alphabetically
+  return Array.from(categorySet).sort();
 }
