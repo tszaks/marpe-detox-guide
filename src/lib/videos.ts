@@ -1346,7 +1346,6 @@ const RAW_VIDEOS: Video[] = [
     uploadDate: '20240407',
     year: 2024,
     isArchived: false,
-    index: 110,
   },
   {
     id: 'fb-111',
@@ -4783,7 +4782,6 @@ const RAW_VIDEOS: Video[] = [
     category: 'Workshop',
     uploadDate: '20260117',
     year: 2026,
-    index: 398,
   },
 ];
 
