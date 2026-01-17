@@ -45,7 +45,7 @@ export default function VideosPage() {
           <h1 className="text-5xl font-bold tracking-tight text-[var(--foreground)] sm:text-6xl lg:text-7xl mb-6">
             <span className="text-gradient">Detox</span>
             <br />
-            <span className="green-gradient">Masterclass.</span>
+            <span className="green-gradient">Detox Videos.</span>
           </h1>
           <p className="mt-8 text-xl text-[var(--muted-foreground)] max-w-2xl mx-auto font-normal leading-relaxed">
             Follow along with Luisa Szakacs as she guides you through each day of the detox with 
