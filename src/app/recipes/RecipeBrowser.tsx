@@ -37,6 +37,7 @@ export function RecipeBrowser({ recipes, categories }: RecipeBrowserProps) {
           recipe.name.toLowerCase().includes(query) ||
           recipe.description?.toLowerCase().includes(query) ||
           recipe.ingredients.some((ing) => ing.toLowerCase().includes(query)) ||
+          recipe.instructions.some((instruction) => instruction.toLowerCase().includes(query)) ||
           recipe.recipeTypes.some((type) => type.toLowerCase().includes(query))
       );
     }
@@ -58,7 +59,7 @@ export function RecipeBrowser({ recipes, categories }: RecipeBrowserProps) {
       {/* Search */}
       <RecipeSearch
         onSearch={handleSearch}
-        placeholder="Search by name, ingredient, or category..."
+        placeholder="Search by name, ingredient, instruction, or category..."
       />
 
       {/* Filters */}
