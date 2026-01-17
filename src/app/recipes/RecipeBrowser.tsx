@@ -32,13 +32,16 @@ export function RecipeBrowser({ recipes, categories }: RecipeBrowserProps) {
     // Filter by search query
     if (searchQuery.trim()) {
       const query = searchQuery.toLowerCase().trim();
+      // Create regex with word boundaries for more precise matching
+      const wordBoundaryRegex = new RegExp(`\\b${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`, 'i');
+      
       result = result.filter(
         (recipe) =>
-          recipe.name.toLowerCase().includes(query) ||
-          recipe.description?.toLowerCase().includes(query) ||
-          recipe.ingredients.some((ing) => ing.toLowerCase().includes(query)) ||
-          recipe.instructions.some((instruction) => instruction.toLowerCase().includes(query)) ||
-          recipe.recipeTypes.some((type) => type.toLowerCase().includes(query))
+          wordBoundaryRegex.test(recipe.name) ||
+          wordBoundaryRegex.test(recipe.description || '') ||
+          recipe.ingredients.some((ing) => wordBoundaryRegex.test(ing)) ||
+          recipe.instructions.some((instruction) => wordBoundaryRegex.test(instruction)) ||
+          recipe.recipeTypes.some((type) => wordBoundaryRegex.test(type))
       );
     }
 
