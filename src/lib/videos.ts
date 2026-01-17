@@ -4774,6 +4774,17 @@ const RAW_VIDEOS: Video[] = [
     isArchived: true,
     index: 397,
   },
+  {
+    id: 'yt-398',
+    title: 'Optimal Health in 2026 Workshop',
+    duration: '1:00',
+    youtubeId: 'kCiI89E_mgE',
+    thumbnailUrl: '/thumbnails/kCiI89E_mgE.jpg',
+    category: 'Workshop',
+    uploadDate: '20260117',
+    year: 2026,
+    index: 398,
+  },
 ];
 
 // Use existing thumbnailUrl (from Facebook CDN) or generate local fallback
