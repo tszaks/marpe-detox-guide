@@ -558,6 +558,7 @@ const RAW_VIDEOS: Video[] = [
     uploadDate: '20260116',
     year: 2026,
     index: 44,
+    thumbnailObjectPosition: 'center_45%',
   },
 
   // Day 15

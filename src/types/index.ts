@@ -101,6 +101,7 @@ export interface Video {
   isArchived?: boolean;  // Non-detox videos marked as archived
   isRecent?: boolean;  // Computed - marks newest videos
   isPinned?: boolean;  // Computed - marks pinned featured video
+  thumbnailObjectPosition?: string;  // Custom focal point for thumbnail (e.g., "center_45%")
 }
 
 export type VideoCategory = 'Daily Update' | 'Recipe' | 'Tip' | 'Workshop' | 'Prep' | 'About Marpé';
