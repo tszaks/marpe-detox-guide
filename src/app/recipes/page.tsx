@@ -54,7 +54,7 @@ export default function RecipesPage() {
         {/* Header */}
         <div className="text-center mb-16 animate-in fade-in slide-in-from-bottom-4 duration-700">
           <span className="text-[12px] font-bold tracking-[0.2em] text-[var(--brand-accent)] uppercase mb-4 block">
-            Curation
+            Recipes
           </span>
           <h1 className="text-5xl font-bold tracking-tight text-[var(--foreground)] sm:text-6xl lg:text-7xl mb-6">
             <span className="text-gradient">Whole-Food</span>
