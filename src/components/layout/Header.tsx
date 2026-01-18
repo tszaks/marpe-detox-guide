@@ -34,17 +34,17 @@ export function Header() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex md:items-center md:gap-10">
+          <div className="hidden lg:flex lg:items-center lg:gap-8 xl:gap-10">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-[12px] font-normal tracking-wide text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors uppercase"
+                className="text-[12px] font-normal tracking-wide text-[var(--muted-foreground)] hover:text-[var(--foreground)] transition-colors uppercase whitespace-nowrap"
               >
                 {item.name}
               </Link>
             ))}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 ml-2">
               <a
                 href="https://www.youtube.com/@luisaszakacs4371"
                 target="_blank"
@@ -68,7 +68,7 @@ export function Header() {
           {/* Mobile menu button */}
           <button
             type="button"
-            className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-[var(--foreground)] hover:bg-[var(--muted)]"
+            className="lg:hidden inline-flex items-center justify-center rounded-md p-2 text-[var(--foreground)] hover:bg-[var(--muted)]"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             <span className="sr-only">Open main menu</span>
@@ -82,7 +82,7 @@ export function Header() {
 
         {/* Mobile Navigation */}
         {mobileMenuOpen && (
-          <div className="md:hidden py-6 border-t border-[var(--border)]/30 animate-in fade-in slide-in-from-top-4 duration-300">
+          <div className="lg:hidden py-6 border-t border-[var(--border)]/30 animate-in fade-in slide-in-from-top-4 duration-300">
             <div className="flex flex-col gap-4">
               {navigation.map((item) => (
                 <Link
