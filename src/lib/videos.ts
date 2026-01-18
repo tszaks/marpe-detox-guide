@@ -1338,7 +1338,7 @@ const RAW_VIDEOS: Video[] = [
   },
   {
     id: 'fb-110',
-    title: 'About Marpe Nutrition',
+    title: 'About Marpé',
     duration: '1:00',
     youtubeId: 'Cd9v6Zugdrc',
     thumbnailUrl: '/thumbnails/Cd9v6Zugdrc.jpg',
