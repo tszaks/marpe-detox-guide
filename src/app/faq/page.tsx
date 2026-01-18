@@ -46,7 +46,7 @@ const faqCategories = [
       {
         question: 'Why are weekly visits important?',
         answer:
-          'Your body's needs change throughout the detox. Weekly visits allow us to make adjustments, provide guidance, and ensure your detox organs are being supported appropriately as your system responds.',
+          "Your body's needs change throughout the detox. Weekly visits allow us to make adjustments, provide guidance, and ensure your detox organs are being supported appropriately as your system responds.",
       },
       {
         question: 'What support is available during detox?',
@@ -76,7 +76,7 @@ const faqCategories = [
       {
         question: 'Is following the food list alone considered a detox?',
         answer:
-          'No. Following the food protocol without proper support from our office is considered a diet, not a detox. A true detox requires targeted supplement support to encourage the body's detox organs to perform efficiently.',
+          "No. Following the food protocol without proper support from our office is considered a diet, not a detox. A true detox requires targeted supplement support to encourage the body's detox organs to perform efficiently.",
       },
     ],
   },
