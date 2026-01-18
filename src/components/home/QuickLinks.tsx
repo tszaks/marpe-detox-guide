@@ -8,6 +8,12 @@ const links: { label: string; url: string; icon: LucideIcon; isInternal?: boolea
     icon: Calendar,
   },
   {
+    label: 'FAQ',
+    url: '/faq',
+    icon: HelpCircle,
+    isInternal: true,
+  },
+  {
     label: 'Why Do A Detox?',
     url: 'https://www.marpenutrition.com/blog/2020/2/23/why-do-a-detox?rq=detox',
     icon: Leaf,
