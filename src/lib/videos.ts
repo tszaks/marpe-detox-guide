@@ -4889,6 +4889,7 @@ const RAW_VIDEOS: Video[] = [
     duration: '0:46',
     facebookUrl: 'https://www.facebook.com/reel/4403217190001063/',
     thumbnailUrl: '/thumbnails/4403217190001063.jpg',
+    thumbnailObjectPosition: 'center_70%',
     category: 'Recipe',
     day: 18,
     uploadDate: '20260119',
