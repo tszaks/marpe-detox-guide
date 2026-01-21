@@ -14,7 +14,7 @@ const RAW_VIDEOS: Video[] = [
     title: 'Join Us for Our 2026 Marpe Detox Program',
     duration: '0:30',
     facebookUrl: 'https://www.facebook.com/reel/25579492188408689/',
-    thumbnailUrl: 'https://scontent-lga3-1.xx.fbcdn.net/v/t51.71878-10/591457322_1432737564997295_2019160017468194729_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=102&ccb=1-7&_nc_sid=50ce42&_nc_ohc=EkV6lnvu2WcQ7kNvwH9s5dl&_nc_oc=Adn1zhbUenArzRjqO-2UQhUwGCoaeRSApIdSuVAjO2Vo9Wj49Lj0EeM4gxDI34vuzXIo99DgdpRkeCQ2AJtYKQUQ&_nc_zt=23&_nc_ht=scontent-lga3-1.xx&_nc_gid=Zt0kA55chMy0jbKLXcC5ZQ&oh=00_AfppRTzq-L5eYuiZjD83qL5DIfhLP31C1Gcx6_Ys9c_HTA&oe=69706DBD',
+    thumbnailUrl: '/thumbnails/25579492188408689.jpg',
     category: 'Daily Update',
     uploadDate: '20251228',
     year: 2025,
