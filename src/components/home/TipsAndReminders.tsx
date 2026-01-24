@@ -27,7 +27,7 @@ const tips: { icon: LucideIcon; title: string; description: string; link?: strin
 
 export function TipsAndReminders() {
   return (
-    <section className="bg-white py-12">
+    <section className="bg-white py-10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-8">
           <h2 className="text-2xl font-bold text-[var(--foreground)]">

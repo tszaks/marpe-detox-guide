@@ -54,7 +54,7 @@ const links: { label: string; url: string; icon: LucideIcon; isInternal?: boolea
 
 export function QuickLinks() {
   return (
-    <section className="bg-[#f5f5f7] py-20 sm:py-32">
+    <section className="bg-[#f5f5f7] py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-12">
           <h2 className="text-[12px] font-bold tracking-[0.2em] text-[var(--muted-foreground)] uppercase mb-4 text-center">

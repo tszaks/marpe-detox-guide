@@ -4,7 +4,7 @@ import { Callout } from '@/components/ui';
 
 export function Announcements() {
   return (
-    <section className="bg-white py-8">
+    <section className="bg-white py-6">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-4 md:grid-cols-2">
           {/* Detox Joining Announcement */}

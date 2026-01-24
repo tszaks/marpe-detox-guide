@@ -51,7 +51,7 @@ export function ApprovedFoods() {
   const [activeCategory, setActiveCategory] = useState(approvedFoodsCategories[0].name);
 
   return (
-    <section id="approved-foods" className="bg-[#fbfbfd] py-20 sm:py-32">
+    <section id="approved-foods" className="bg-[#fbfbfd] py-16 sm:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight text-[var(--foreground)] sm:text-4xl lg:text-5xl">
