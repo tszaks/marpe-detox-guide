@@ -109,7 +109,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-[var(--border)]/20">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-[12px] text-[var(--muted-foreground)]">
-              &copy; {currentYear} Marpé Nutrition. All rights reserved.
+              &copy; 2026 Marp&eacute; Nutrition LLC. All rights reserved.
             </p>
             <div className="flex gap-8 text-[12px] text-[var(--muted-foreground)]">
                <span className="hover:text-[var(--foreground)] transition-colors cursor-pointer">Privacy Policy</span>
