@@ -1,4 +1,5 @@
 export { Hero } from './Hero';
+export { HeroCarousel } from './HeroCarousel';
 export { Announcements } from './Announcements';
 export { QuickLinks } from './QuickLinks';
 export { FoodsToAvoid } from './FoodsToAvoid';

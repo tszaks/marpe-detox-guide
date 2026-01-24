@@ -1,5 +1,5 @@
 import {
-  Hero,
+  HeroCarousel,
   Announcements,
   QuickLinks,
   FoodsToAvoid,
@@ -12,7 +12,7 @@ import {
 export default function HomePage() {
   return (
     <>
-      <Hero />
+      <HeroCarousel />
       <Announcements />
       <QuickLinks />
       <FoodsToAvoid />
