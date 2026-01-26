@@ -435,7 +435,7 @@ const RAW_VIDEOS: Video[] = [
   // Bonus
   {
     id: 'fb-35',
-    title: 'Thats a DIET NOT A DETOX!',
+    title: 'Understanding True Detox vs Just Another Diet',
     duration: '0:33',
     facebookUrl: 'https://www.facebook.com/reel/1553777609104910/',
     thumbnailUrl: '/thumbnails/1553777609104910.jpg',
@@ -550,7 +550,7 @@ const RAW_VIDEOS: Video[] = [
   // Bonus: No Bars
   {
     id: 'fb-44',
-    title: 'No Bars! Real Food Over Processed Cleanses',
+    title: 'Why Real Food Beats Processed Cleanse Bars',
     duration: '0:55',
     facebookUrl: 'https://www.facebook.com/reel/4240951989517168/',
     thumbnailUrl: '/thumbnails/4240951989517168.jpg',
@@ -2820,7 +2820,7 @@ const RAW_VIDEOS: Video[] = [
   },
   {
     id: 'fb-235',
-    title: 'Mandy\'s Flower Sniffing and AllerPlex Allergy Relief',
+    title: 'Natural Allergy Relief with AllerPlex',
     duration: '1:00',
     facebookUrl: 'https://www.facebook.com/reel/1526189831644097/',
     thumbnailUrl: '/thumbnails/1526189831644097.jpg',
@@ -3480,7 +3480,7 @@ const RAW_VIDEOS: Video[] = [
   },
   {
     id: 'fb-290',
-    title: 'Mandy\'s Big Package Deal with Free Shipping',
+    title: 'Marpe Supplement Package with Free Shipping',
     duration: '1:00',
     facebookUrl: 'https://www.facebook.com/reel/2028788671192083/',
     thumbnailUrl: '/thumbnails/2028788671192083.jpg',
