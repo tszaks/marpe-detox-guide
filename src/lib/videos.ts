@@ -561,32 +561,6 @@ const RAW_VIDEOS: Video[] = [
     thumbnailObjectPosition: 'center_45%',
   },
 
-  // Day 15
-  {
-    id: 'fb-45',
-    title: 'Day 15 of Detox: Apple Cider Vinegar for Bloating',
-    duration: '1:20',
-    facebookUrl: 'https://www.facebook.com/reel/902957805416029/',
-    thumbnailUrl: '/thumbnails/902957805416029.jpg',
-    category: 'Tip',
-    day: 15,
-    uploadDate: '20260116',
-    year: 2026,
-    index: 45,
-  },
-  {
-    id: 'fb-46',
-    title: 'Day 15 of Detox: Easy Frozen Cauliflower Soup',
-    duration: '1:05',
-    facebookUrl: 'https://www.facebook.com/reel/906379745404677/',
-    thumbnailUrl: '/thumbnails/906379745404677.jpg',
-    category: 'Recipe',
-    day: 15,
-    uploadDate: '20260116',
-    year: 2026,
-    index: 46,
-  },
-
   // === 2023 DETOX VIDEOS ===
   {
     id: 'fb-47',
