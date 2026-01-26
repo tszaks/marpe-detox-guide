@@ -4,7 +4,7 @@
 - **Site:** [startmydetox.com](https://startmydetox.com)
 - **Tech Stack:** Next.js, TypeScript, Tailwind CSS, Supabase
 - **Hosting:** Railway (production)
-- **Database:** Supabase (project: `drzwmevzograxjsfgmze` / "Marpe Nutrition")
+- **Database:** Supabase (project: `uwervfhjjfrnxugpdtqa` in "Marpe" org)
 
 ## Deployment
 - **Platform:** Railway
@@ -12,9 +12,10 @@
 - **Domain:** startmydetox.com
 
 ## Database (Supabase)
-- **Project ID:** `drzwmevzograxjsfgmze`
-- **Project Name:** Marpe Nutrition
+- **Project ID:** `uwervfhjjfrnxugpdtqa`
+- **Org:** Marpe (moved from Szakacs Media org on Jan 2026)
 - **Region:** us-east-1
+- **Note:** Schema uses `name` field (not `title`) for recipe names
 
 ### Key Tables
 - `recipes` - All recipes with approval workflow (status: pending/approved/rejected)
